@@ -1,0 +1,18 @@
+2023-06-06 23:21:54,789 INFO  - Starting HiveMQ Community Edition Server
+2023-06-06 23:21:54,790 INFO  - HiveMQ version: 2023.3
+2023-06-06 23:21:54,790 INFO  - HiveMQ home directory: C:\Users\sschneider\Downloads\hivemq-ce-2023.3\hivemq-ce-2023.3
+2023-06-06 23:21:54,792 INFO  - Log Configuration was overridden by C:\Users\sschneider\Downloads\hivemq-ce-2023.3\hivemq-ce-2023.3\conf\logback.xml
+2023-06-06 23:21:54,941 INFO  - This HiveMQ ID is 95rTN
+2023-06-06 23:21:56,011 INFO  - Starting with file persistence mode.
+2023-06-06 23:21:56,353 INFO  - Starting HiveMQ extension system.
+2023-06-06 23:21:56,376 WARN  - 
+################################################################################################################
+# This HiveMQ deployment is not secure! You are lacking Authentication and Authorization.                      #
+# Right now any MQTT client can connect to the broker with a full set of permissions.                          #
+# For production usage, add an appropriate security extension and remove the hivemq-allow-all extension.       #
+# You can download security extensions from the HiveMQ Marketplace (https://www.hivemq.com/extensions/).       #
+################################################################################################################
+2023-06-06 23:21:56,379 INFO  - Extension "Allow All Extension" version 1.0.0 started successfully.
+2023-06-06 23:21:56,399 INFO  - Starting TCP listener on address 0.0.0.0 and port 1883
+2023-06-06 23:21:56,887 INFO  - Started TCP Listener on address 0.0.0.0 and on port 1883
+2023-06-06 23:21:56,888 INFO  - Started HiveMQ in 2103ms

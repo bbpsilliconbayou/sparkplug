@@ -99,14 +99,12 @@ def classify_assertion(assertionid):
     return None
 
 def setResult(results, assertion_id, test, timestamp, result):
-    oldresult = results[assertion_id]
-    if oldresult != None and oldresult[2].find("FAIL") != -1:
-        #print("Not overwriting failing test result", oldresult, "\nwith", result, "\n")
-        pass
-    else:
-        results[assertion_id] = test, timestamp, result
+    #oldresult = results[assertion_id]
+    
+    results[assertion_id] = test, timestamp, result
 
 def process_test(profile, test, timestamp, lines):
+    print("profile is" + profile)
     curline = lines.pop(0)
     while curline.find("OVERALL") == -1:
         assertion_id, result = curline.strip(";").split(maxsplit=1)
@@ -133,10 +131,12 @@ def process_test(profile, test, timestamp, lines):
             else:
                 setResult(hostresults, assertion_id, test, timestamp, result)
         elif profile == "broker":
-            if assertion_id not in brokerids:
-                print("Error: assertion not in brokerids:", assertion_id, profile, test)
-            else:
-                setResult(brokerresults, assertion_id, test, timestamp, result)
+            print(brokerids)
+            newID =  assertion_id.upper()
+   
+           
+            
+            setResult(brokerresults, newID, test, timestamp, result)
         curline = lines.pop(0)
 
 
@@ -160,10 +160,13 @@ def process_logfile(lines):
             else:
                 tests[test] = [date+" "+time]
             process_test(profile.lower(), test, date+" "+time, lines)
+    print(tests)
     return info
 
 def stats(key_list, results):
     count = len(key_list)
+    print(count)
+    print(key_list)
     optional_count = 0
     optional_passes = 0
     passes = 0
@@ -182,7 +185,12 @@ def stats(key_list, results):
                 fails += 1
                 if optional:
                     optional_fails += 1
-    percent = int(passes/count * 100.0)
+        
+    if count == 0:
+        percent = 100
+    else:
+        percent = int(passes/count * 100.0)
+   
     try:
         percent_without_optional = int((passes - optional_passes)/(count - optional_count) * 100.0)
     except:
@@ -302,6 +310,7 @@ if __name__ == "__main__":
         logfile = open(logfilename)
         loglines = logfile.readlines()
         logfile.close()
+        print(loglines)
     except:
         print("Can't open logfile", logfilename)
         sys.exit()
@@ -315,6 +324,7 @@ if __name__ == "__main__":
             ids = process(file)
             #print(ids)
             if file.find("test/broker") != -1:
+                
                 brokerids = brokerids.union(ids)
             elif file.find("test/host") != -1:
                 hostids = hostids.union(ids)

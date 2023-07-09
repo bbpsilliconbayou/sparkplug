@@ -1,0 +1,559 @@
+2023-06-19 13:01:54,233 INFO  - Starting HiveMQ Community Edition Server
+2023-06-19 13:01:54,234 INFO  - HiveMQ version: 2023.3
+2023-06-19 13:01:54,234 INFO  - HiveMQ home directory: C:\Users\sschneider\Github\siteSync\sparkplug\hivemq-ce-2023.3\hivemq-ce-2023.3
+2023-06-19 13:01:54,237 INFO  - Log Configuration was overridden by C:\Users\sschneider\Github\siteSync\sparkplug\hivemq-ce-2023.3\hivemq-ce-2023.3\conf\logback.xml
+2023-06-19 13:01:54,280 DEBUG - Reading configuration file C:\Users\sschneider\Github\siteSync\sparkplug\hivemq-ce-2023.3\hivemq-ce-2023.3\conf\config.xml
+2023-06-19 13:01:54,409 DEBUG - Adding TCP Listener on bind address 0.0.0.0 and port 1883. Name: tcp-listener-1883.
+2023-06-19 13:01:54,410 DEBUG - Adding Websocket Listener on bind address 0.0.0.0 and port 8000. Name: my-websocket-listener.
+2023-06-19 13:01:54,410 DEBUG - Setting retained messages enabled to true
+2023-06-19 13:01:54,410 DEBUG - Setting wildcard subscriptions enabled to true
+2023-06-19 13:01:54,411 DEBUG - Setting subscription identifier enabled to true
+2023-06-19 13:01:54,411 DEBUG - Setting shared subscriptions enabled to true
+2023-06-19 13:01:54,411 DEBUG - Setting maximum qos to EXACTLY_ONCE 
+2023-06-19 13:01:54,412 DEBUG - Setting topic alias enabled to true
+2023-06-19 13:01:54,412 DEBUG - Setting topic alias maximum per client to 5
+2023-06-19 13:01:54,412 DEBUG - Setting the number of max queued messages  per client to 1000 entries
+2023-06-19 13:01:54,412 DEBUG - Setting queued messages strategy for each client to DISCARD
+2023-06-19 13:01:54,413 DEBUG - Setting the expiry interval for client sessions to 4294967295 seconds
+2023-06-19 13:01:54,413 DEBUG - Setting the expiry interval for publish messages to 4294967296 seconds
+2023-06-19 13:01:54,413 DEBUG - Setting the server receive maximum to 10
+2023-06-19 13:01:54,414 DEBUG - Setting keep alive maximum to 65535 seconds
+2023-06-19 13:01:54,414 DEBUG - Setting keep alive allow zero to true
+2023-06-19 13:01:54,414 DEBUG - Setting the maximum packet size for mqtt messages 268435460 bytes
+2023-06-19 13:01:54,414 DEBUG - Setting global maximum allowed connections to -1
+2023-06-19 13:01:54,415 DEBUG - Setting the maximum client id length to 65535
+2023-06-19 13:01:54,416 DEBUG - Setting the timeout for disconnecting idle tcp connections before a connect message was received to 10000 milliseconds
+2023-06-19 13:01:54,416 DEBUG - Throttling the global incoming traffic limit 0 bytes/second
+2023-06-19 13:01:54,416 DEBUG - Setting the maximum topic length to 65535
+2023-06-19 13:01:54,416 DEBUG - Setting allow server assigned client identifier to true
+2023-06-19 13:01:54,416 DEBUG - Setting validate UTF-8 to true
+2023-06-19 13:01:54,416 DEBUG - Setting payload format validation to false
+2023-06-19 13:01:54,416 DEBUG - Setting allow-problem-information to true
+2023-06-19 13:01:54,416 DEBUG - Setting anonymous usage statistics enabled to true 
+2023-06-19 13:01:54,418 INFO  - This HiveMQ ID is j5LGy
+2023-06-19 13:01:54,848 DEBUG - 1.98 GB allocated for qos 0 inflight messages
+2023-06-19 13:01:55,488 DEBUG - Can't open directory channel. Log directory fsync won't be performed.
+2023-06-19 13:01:55,699 DEBUG - Initializing payload reference count and queue sizes for client_queue persistence.
+2023-06-19 13:01:55,849 INFO  - Starting with file persistence mode.
+2023-06-19 13:01:55,895 DEBUG - Diagnostic mode is disabled
+2023-06-19 13:01:56,111 DEBUG - Throttling incoming traffic to 0 B/s
+2023-06-19 13:01:56,111 DEBUG - Throttling outgoing traffic to 0 B/s
+2023-06-19 13:01:56,126 DEBUG - Set extension executor thread pool size to 20
+2023-06-19 13:01:56,126 DEBUG - Set extension executor thread pool keep-alive to 30 seconds
+2023-06-19 13:01:56,147 DEBUG - Building initial topic tree
+2023-06-19 13:01:56,212 DEBUG - Started JMX Metrics Reporting.
+2023-06-19 13:01:56,250 INFO  - Starting HiveMQ extension system.
+2023-06-19 13:01:56,281 DEBUG - Starting extension with id "hivemq-allow-all-extension" at C:\Users\sschneider\Github\siteSync\sparkplug\hivemq-ce-2023.3\hivemq-ce-2023.3\extensions\hivemq-allow-all-extension
+2023-06-19 13:01:56,289 WARN  - 
+################################################################################################################
+# This HiveMQ deployment is not secure! You are lacking Authentication and Authorization.                      #
+# Right now any MQTT client can connect to the broker with a full set of permissions.                          #
+# For production usage, add an appropriate security extension and remove the hivemq-allow-all extension.       #
+# You can download security extensions from the HiveMQ Marketplace (https://www.hivemq.com/extensions/).       #
+################################################################################################################
+2023-06-19 13:01:56,290 DEBUG - Simple authenticator added by extension 'hivemq-allow-all-extension'.
+2023-06-19 13:01:56,290 INFO  - Extension "Allow All Extension" version 1.0.0 started successfully.
+2023-06-19 13:01:56,291 DEBUG - Starting extension with id "sparkplug-tck" at C:\Users\sschneider\Github\siteSync\sparkplug\hivemq-ce-2023.3\hivemq-ce-2023.3\extensions\sparkplug-tck
+2023-06-19 13:01:56,301 INFO  - Extension "Eclipse™ Sparkplug™ TCK" version 3.0.0 started successfully.
+2023-06-19 13:01:56,324 INFO  - Starting TCP listener on address 0.0.0.0 and port 1883
+2023-06-19 13:01:56,925 INFO  - Starting Websocket listener on address 0.0.0.0 and port 8000
+2023-06-19 13:01:56,929 WARN  - An exception was thrown by com.hivemq.bootstrap.HiveMQNettyBootstrap$UpdateGivenFutureListener.operationComplete()
+java.lang.NullPointerException: null
+	at com.hivemq.bootstrap.HiveMQNettyBootstrap$UpdateGivenFutureListener.operationComplete(HiveMQNettyBootstrap.java:294)
+	at com.hivemq.bootstrap.HiveMQNettyBootstrap$UpdateGivenFutureListener.operationComplete(HiveMQNettyBootstrap.java:278)
+	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:578)
+	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:552)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:491)
+	at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:616)
+	at io.netty.util.concurrent.DefaultPromise.setFailure0(DefaultPromise.java:609)
+	at io.netty.util.concurrent.DefaultPromise.tryFailure(DefaultPromise.java:117)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.safeSetFailure(AbstractChannel.java:999)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:564)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1334)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeBind(AbstractChannelHandlerContext.java:506)
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:491)
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:973)
+	at io.netty.channel.AbstractChannel.bind(AbstractChannel.java:260)
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:356)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:503)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-06-19 13:04:58,764 INFO  - Starting HiveMQ Community Edition Server
+2023-06-19 13:04:58,764 INFO  - HiveMQ version: 2023.3
+2023-06-19 13:04:58,764 INFO  - HiveMQ home directory: C:\Users\sschneider\Github\siteSync\sparkplug\hivemq-ce-2023.3\hivemq-ce-2023.3
+2023-06-19 13:04:58,771 INFO  - Log Configuration was overridden by C:\Users\sschneider\Github\siteSync\sparkplug\hivemq-ce-2023.3\hivemq-ce-2023.3\conf\logback.xml
+2023-06-19 13:04:58,822 DEBUG - Reading configuration file C:\Users\sschneider\Github\siteSync\sparkplug\hivemq-ce-2023.3\hivemq-ce-2023.3\conf\config.xml
+2023-06-19 13:04:58,947 DEBUG - Adding TCP Listener on bind address 0.0.0.0 and port 1883. Name: tcp-listener-1883.
+2023-06-19 13:04:58,948 DEBUG - Adding Websocket Listener on bind address 0.0.0.0 and port 8000. Name: my-websocket-listener.
+2023-06-19 13:04:58,949 DEBUG - Setting retained messages enabled to true
+2023-06-19 13:04:58,949 DEBUG - Setting wildcard subscriptions enabled to true
+2023-06-19 13:04:58,949 DEBUG - Setting subscription identifier enabled to true
+2023-06-19 13:04:58,951 DEBUG - Setting shared subscriptions enabled to true
+2023-06-19 13:04:58,952 DEBUG - Setting maximum qos to EXACTLY_ONCE 
+2023-06-19 13:04:58,952 DEBUG - Setting topic alias enabled to true
+2023-06-19 13:04:58,952 DEBUG - Setting topic alias maximum per client to 5
+2023-06-19 13:04:58,952 DEBUG - Setting the number of max queued messages  per client to 1000 entries
+2023-06-19 13:04:58,953 DEBUG - Setting queued messages strategy for each client to DISCARD
+2023-06-19 13:04:58,953 DEBUG - Setting the expiry interval for client sessions to 4294967295 seconds
+2023-06-19 13:04:58,953 DEBUG - Setting the expiry interval for publish messages to 4294967296 seconds
+2023-06-19 13:04:58,955 DEBUG - Setting the server receive maximum to 10
+2023-06-19 13:04:58,955 DEBUG - Setting keep alive maximum to 65535 seconds
+2023-06-19 13:04:58,955 DEBUG - Setting keep alive allow zero to true
+2023-06-19 13:04:58,955 DEBUG - Setting the maximum packet size for mqtt messages 268435460 bytes
+2023-06-19 13:04:58,956 DEBUG - Setting global maximum allowed connections to -1
+2023-06-19 13:04:58,956 DEBUG - Setting the maximum client id length to 65535
+2023-06-19 13:04:58,956 DEBUG - Setting the timeout for disconnecting idle tcp connections before a connect message was received to 10000 milliseconds
+2023-06-19 13:04:58,956 DEBUG - Throttling the global incoming traffic limit 0 bytes/second
+2023-06-19 13:04:58,956 DEBUG - Setting the maximum topic length to 65535
+2023-06-19 13:04:58,957 DEBUG - Setting allow server assigned client identifier to true
+2023-06-19 13:04:58,957 DEBUG - Setting validate UTF-8 to true
+2023-06-19 13:04:58,957 DEBUG - Setting payload format validation to false
+2023-06-19 13:04:58,957 DEBUG - Setting allow-problem-information to true
+2023-06-19 13:04:58,957 DEBUG - Setting anonymous usage statistics enabled to true 
+2023-06-19 13:04:58,959 INFO  - This HiveMQ ID is kFPnq
+2023-06-19 13:04:59,345 DEBUG - 1.98 GB allocated for qos 0 inflight messages
+2023-06-19 13:04:59,956 DEBUG - Can't open directory channel. Log directory fsync won't be performed.
+2023-06-19 13:05:00,207 DEBUG - Initializing payload reference count and queue sizes for client_queue persistence.
+2023-06-19 13:05:00,342 INFO  - Starting with file persistence mode.
+2023-06-19 13:05:00,384 DEBUG - Diagnostic mode is disabled
+2023-06-19 13:05:00,627 DEBUG - Throttling incoming traffic to 0 B/s
+2023-06-19 13:05:00,628 DEBUG - Throttling outgoing traffic to 0 B/s
+2023-06-19 13:05:00,644 DEBUG - Set extension executor thread pool size to 20
+2023-06-19 13:05:00,644 DEBUG - Set extension executor thread pool keep-alive to 30 seconds
+2023-06-19 13:05:00,667 DEBUG - Building initial topic tree
+2023-06-19 13:05:00,740 DEBUG - Started JMX Metrics Reporting.
+2023-06-19 13:05:00,775 INFO  - Starting HiveMQ extension system.
+2023-06-19 13:05:00,802 DEBUG - Starting extension with id "hivemq-allow-all-extension" at C:\Users\sschneider\Github\siteSync\sparkplug\hivemq-ce-2023.3\hivemq-ce-2023.3\extensions\hivemq-allow-all-extension
+2023-06-19 13:05:00,820 WARN  - 
+################################################################################################################
+# This HiveMQ deployment is not secure! You are lacking Authentication and Authorization.                      #
+# Right now any MQTT client can connect to the broker with a full set of permissions.                          #
+# For production usage, add an appropriate security extension and remove the hivemq-allow-all extension.       #
+# You can download security extensions from the HiveMQ Marketplace (https://www.hivemq.com/extensions/).       #
+################################################################################################################
+2023-06-19 13:05:00,822 DEBUG - Simple authenticator added by extension 'hivemq-allow-all-extension'.
+2023-06-19 13:05:00,822 INFO  - Extension "Allow All Extension" version 1.0.0 started successfully.
+2023-06-19 13:05:00,823 DEBUG - Starting extension with id "sparkplug-tck" at C:\Users\sschneider\Github\siteSync\sparkplug\hivemq-ce-2023.3\hivemq-ce-2023.3\extensions\sparkplug-tck
+2023-06-19 13:05:00,832 INFO  - Extension "Eclipse™ Sparkplug™ TCK" version 3.0.0 started successfully.
+2023-06-19 13:05:00,853 INFO  - Starting TCP listener on address 0.0.0.0 and port 1883
+2023-06-19 13:05:01,444 INFO  - Starting Websocket listener on address 0.0.0.0 and port 8000
+2023-06-19 13:05:01,450 WARN  - An exception was thrown by com.hivemq.bootstrap.HiveMQNettyBootstrap$UpdateGivenFutureListener.operationComplete()
+java.lang.NullPointerException: null
+	at com.hivemq.bootstrap.HiveMQNettyBootstrap$UpdateGivenFutureListener.operationComplete(HiveMQNettyBootstrap.java:294)
+	at com.hivemq.bootstrap.HiveMQNettyBootstrap$UpdateGivenFutureListener.operationComplete(HiveMQNettyBootstrap.java:278)
+	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:578)
+	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:552)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:491)
+	at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:616)
+	at io.netty.util.concurrent.DefaultPromise.setFailure0(DefaultPromise.java:609)
+	at io.netty.util.concurrent.DefaultPromise.tryFailure(DefaultPromise.java:117)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.safeSetFailure(AbstractChannel.java:999)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:564)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1334)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeBind(AbstractChannelHandlerContext.java:506)
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:491)
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:973)
+	at io.netty.channel.AbstractChannel.bind(AbstractChannel.java:260)
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:356)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:503)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-06-19 13:09:11,261 INFO  - Starting HiveMQ Community Edition Server
+2023-06-19 13:09:11,262 INFO  - HiveMQ version: 2023.3
+2023-06-19 13:09:11,262 INFO  - HiveMQ home directory: C:\Users\sschneider\Github\siteSync\sparkplug\hivemq-ce-2023.3\hivemq-ce-2023.3
+2023-06-19 13:09:11,264 INFO  - Log Configuration was overridden by C:\Users\sschneider\Github\siteSync\sparkplug\hivemq-ce-2023.3\hivemq-ce-2023.3\conf\logback.xml
+2023-06-19 13:09:11,305 DEBUG - Reading configuration file C:\Users\sschneider\Github\siteSync\sparkplug\hivemq-ce-2023.3\hivemq-ce-2023.3\conf\config.xml
+2023-06-19 13:09:11,428 DEBUG - Adding TCP Listener on bind address 0.0.0.0 and port 1883. Name: tcp-listener-1883.
+2023-06-19 13:09:11,428 DEBUG - Adding Websocket Listener on bind address 0.0.0.0 and port 8000. Name: my-websocket-listener.
+2023-06-19 13:09:11,429 DEBUG - Setting retained messages enabled to true
+2023-06-19 13:09:11,429 DEBUG - Setting wildcard subscriptions enabled to true
+2023-06-19 13:09:11,429 DEBUG - Setting subscription identifier enabled to true
+2023-06-19 13:09:11,429 DEBUG - Setting shared subscriptions enabled to true
+2023-06-19 13:09:11,429 DEBUG - Setting maximum qos to EXACTLY_ONCE 
+2023-06-19 13:09:11,430 DEBUG - Setting topic alias enabled to true
+2023-06-19 13:09:11,430 DEBUG - Setting topic alias maximum per client to 5
+2023-06-19 13:09:11,430 DEBUG - Setting the number of max queued messages  per client to 1000 entries
+2023-06-19 13:09:11,430 DEBUG - Setting queued messages strategy for each client to DISCARD
+2023-06-19 13:09:11,430 DEBUG - Setting the expiry interval for client sessions to 4294967295 seconds
+2023-06-19 13:09:11,431 DEBUG - Setting the expiry interval for publish messages to 4294967296 seconds
+2023-06-19 13:09:11,431 DEBUG - Setting the server receive maximum to 10
+2023-06-19 13:09:11,431 DEBUG - Setting keep alive maximum to 65535 seconds
+2023-06-19 13:09:11,431 DEBUG - Setting keep alive allow zero to true
+2023-06-19 13:09:11,431 DEBUG - Setting the maximum packet size for mqtt messages 268435460 bytes
+2023-06-19 13:09:11,432 DEBUG - Setting global maximum allowed connections to -1
+2023-06-19 13:09:11,432 DEBUG - Setting the maximum client id length to 65535
+2023-06-19 13:09:11,432 DEBUG - Setting the timeout for disconnecting idle tcp connections before a connect message was received to 10000 milliseconds
+2023-06-19 13:09:11,432 DEBUG - Throttling the global incoming traffic limit 0 bytes/second
+2023-06-19 13:09:11,432 DEBUG - Setting the maximum topic length to 65535
+2023-06-19 13:09:11,432 DEBUG - Setting allow server assigned client identifier to true
+2023-06-19 13:09:11,432 DEBUG - Setting validate UTF-8 to true
+2023-06-19 13:09:11,432 DEBUG - Setting payload format validation to false
+2023-06-19 13:09:11,433 DEBUG - Setting allow-problem-information to true
+2023-06-19 13:09:11,433 DEBUG - Setting anonymous usage statistics enabled to true 
+2023-06-19 13:09:11,434 INFO  - This HiveMQ ID is NHZ7A
+2023-06-19 13:09:11,821 DEBUG - 1.98 GB allocated for qos 0 inflight messages
+2023-06-19 13:09:12,431 DEBUG - Can't open directory channel. Log directory fsync won't be performed.
+2023-06-19 13:09:12,672 DEBUG - Initializing payload reference count and queue sizes for client_queue persistence.
+2023-06-19 13:09:12,870 INFO  - Starting with file persistence mode.
+2023-06-19 13:09:12,912 DEBUG - Diagnostic mode is disabled
+2023-06-19 13:09:13,130 DEBUG - Throttling incoming traffic to 0 B/s
+2023-06-19 13:09:13,130 DEBUG - Throttling outgoing traffic to 0 B/s
+2023-06-19 13:09:13,145 DEBUG - Set extension executor thread pool size to 20
+2023-06-19 13:09:13,145 DEBUG - Set extension executor thread pool keep-alive to 30 seconds
+2023-06-19 13:09:13,193 DEBUG - Building initial topic tree
+2023-06-19 13:09:13,250 DEBUG - Started JMX Metrics Reporting.
+2023-06-19 13:09:13,287 INFO  - Starting HiveMQ extension system.
+2023-06-19 13:09:13,316 DEBUG - Starting extension with id "hivemq-allow-all-extension" at C:\Users\sschneider\Github\siteSync\sparkplug\hivemq-ce-2023.3\hivemq-ce-2023.3\extensions\hivemq-allow-all-extension
+2023-06-19 13:09:13,324 WARN  - 
+################################################################################################################
+# This HiveMQ deployment is not secure! You are lacking Authentication and Authorization.                      #
+# Right now any MQTT client can connect to the broker with a full set of permissions.                          #
+# For production usage, add an appropriate security extension and remove the hivemq-allow-all extension.       #
+# You can download security extensions from the HiveMQ Marketplace (https://www.hivemq.com/extensions/).       #
+################################################################################################################
+2023-06-19 13:09:13,325 DEBUG - Simple authenticator added by extension 'hivemq-allow-all-extension'.
+2023-06-19 13:09:13,326 INFO  - Extension "Allow All Extension" version 1.0.0 started successfully.
+2023-06-19 13:09:13,326 DEBUG - Starting extension with id "sparkplug-tck" at C:\Users\sschneider\Github\siteSync\sparkplug\hivemq-ce-2023.3\hivemq-ce-2023.3\extensions\sparkplug-tck
+2023-06-19 13:09:13,337 INFO  - Extension "Eclipse™ Sparkplug™ TCK" version 3.0.0 started successfully.
+2023-06-19 13:09:13,361 INFO  - Starting TCP listener on address 0.0.0.0 and port 1883
+2023-06-19 13:09:13,948 INFO  - Starting Websocket listener on address 0.0.0.0 and port 8000
+2023-06-19 13:09:13,954 INFO  - Started TCP Listener on address 0.0.0.0 and on port 1883
+2023-06-19 13:09:13,955 INFO  - Started Websocket Listener on address 0.0.0.0 and on port 8000
+2023-06-19 13:09:13,955 INFO  - Started HiveMQ in 2700ms
+2023-06-19 13:09:16,100 DEBUG - Sent anonymous usage statistics
+2023-06-19 13:31:31,760 DEBUG - Client with ID 127.0.0.1 and IP {} disconnected. The client was idle for too long without sending an MQTT control packet
+2023-06-19 13:37:24,763 DEBUG - Client with ID 127.0.0.1 and IP {} disconnected. The client was idle for too long without sending an MQTT control packet
+2023-06-19 13:37:33,432 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-19 13:37:37,966 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-19 13:37:42,978 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-19 13:37:47,960 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-19 13:37:52,965 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-19 13:37:57,974 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-19 13:38:02,974 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-19 13:38:07,308 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-19 13:38:11,644 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-19 13:38:15,970 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-19 13:38:20,314 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-19 13:38:24,658 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-19 13:38:28,998 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-19 13:38:33,348 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-19 13:38:37,685 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-19 13:38:42,016 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-19 13:38:46,346 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-19 13:38:50,670 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-19 13:38:55,004 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-19 13:38:59,335 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-19 13:39:03,668 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-19 13:39:08,004 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-19 13:39:12,325 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-19 13:39:16,655 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-19 13:39:20,992 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-19 13:39:25,321 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-19 13:39:29,643 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-19 13:39:34,976 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-19 13:39:39,965 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-19 13:39:44,981 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-19 13:39:49,312 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-19 13:39:53,636 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-19 13:39:57,961 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-19 13:40:02,301 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-19 13:40:06,637 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-19 13:40:10,969 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-19 13:40:15,301 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-19 13:40:19,625 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-19 13:40:23,951 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-19 13:40:28,275 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-19 13:40:32,602 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-19 13:40:36,935 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-19 13:41:01,640 INFO  - Starting HiveMQ Community Edition Server
+2023-06-19 13:41:01,641 INFO  - HiveMQ version: 2023.3
+2023-06-19 13:41:01,641 INFO  - HiveMQ home directory: C:\Users\sschneider\Github\siteSync\sparkplug\hivemq-ce-2023.3\hivemq-ce-2023.3
+2023-06-19 13:41:01,647 INFO  - Log Configuration was overridden by C:\Users\sschneider\Github\siteSync\sparkplug\hivemq-ce-2023.3\hivemq-ce-2023.3\conf\logback.xml
+2023-06-19 13:41:01,689 DEBUG - Reading configuration file C:\Users\sschneider\Github\siteSync\sparkplug\hivemq-ce-2023.3\hivemq-ce-2023.3\conf\config.xml
+2023-06-19 13:41:01,814 DEBUG - Adding TCP Listener on bind address 0.0.0.0 and port 1883. Name: tcp-listener-1883.
+2023-06-19 13:41:01,815 DEBUG - Adding Websocket Listener on bind address 0.0.0.0 and port 8000. Name: my-websocket-listener.
+2023-06-19 13:41:01,815 DEBUG - Setting retained messages enabled to true
+2023-06-19 13:41:01,815 DEBUG - Setting wildcard subscriptions enabled to true
+2023-06-19 13:41:01,815 DEBUG - Setting subscription identifier enabled to true
+2023-06-19 13:41:01,816 DEBUG - Setting shared subscriptions enabled to true
+2023-06-19 13:41:01,816 DEBUG - Setting maximum qos to EXACTLY_ONCE 
+2023-06-19 13:41:01,816 DEBUG - Setting topic alias enabled to true
+2023-06-19 13:41:01,816 DEBUG - Setting topic alias maximum per client to 5
+2023-06-19 13:41:01,816 DEBUG - Setting the number of max queued messages  per client to 1000 entries
+2023-06-19 13:41:01,816 DEBUG - Setting queued messages strategy for each client to DISCARD
+2023-06-19 13:41:01,817 DEBUG - Setting the expiry interval for client sessions to 4294967295 seconds
+2023-06-19 13:41:01,817 DEBUG - Setting the expiry interval for publish messages to 4294967296 seconds
+2023-06-19 13:41:01,817 DEBUG - Setting the server receive maximum to 10
+2023-06-19 13:41:01,817 DEBUG - Setting keep alive maximum to 65535 seconds
+2023-06-19 13:41:01,817 DEBUG - Setting keep alive allow zero to true
+2023-06-19 13:41:01,817 DEBUG - Setting the maximum packet size for mqtt messages 268435460 bytes
+2023-06-19 13:41:01,818 DEBUG - Setting global maximum allowed connections to -1
+2023-06-19 13:41:01,818 DEBUG - Setting the maximum client id length to 65535
+2023-06-19 13:41:01,818 DEBUG - Setting the timeout for disconnecting idle tcp connections before a connect message was received to 10000 milliseconds
+2023-06-19 13:41:01,818 DEBUG - Throttling the global incoming traffic limit 0 bytes/second
+2023-06-19 13:41:01,818 DEBUG - Setting the maximum topic length to 65535
+2023-06-19 13:41:01,818 DEBUG - Setting allow server assigned client identifier to true
+2023-06-19 13:41:01,819 DEBUG - Setting validate UTF-8 to true
+2023-06-19 13:41:01,819 DEBUG - Setting payload format validation to false
+2023-06-19 13:41:01,819 DEBUG - Setting allow-problem-information to true
+2023-06-19 13:41:01,819 DEBUG - Setting anonymous usage statistics enabled to true 
+2023-06-19 13:41:01,820 INFO  - This HiveMQ ID is as251
+2023-06-19 13:41:02,229 DEBUG - 1.98 GB allocated for qos 0 inflight messages
+2023-06-19 13:41:02,931 DEBUG - Can't open directory channel. Log directory fsync won't be performed.
+2023-06-19 13:41:03,138 DEBUG - Initializing payload reference count and queue sizes for client_queue persistence.
+2023-06-19 13:41:03,325 INFO  - Starting with file persistence mode.
+2023-06-19 13:41:03,366 DEBUG - Diagnostic mode is disabled
+2023-06-19 13:41:03,580 DEBUG - Throttling incoming traffic to 0 B/s
+2023-06-19 13:41:03,581 DEBUG - Throttling outgoing traffic to 0 B/s
+2023-06-19 13:41:03,598 DEBUG - Set extension executor thread pool size to 20
+2023-06-19 13:41:03,598 DEBUG - Set extension executor thread pool keep-alive to 30 seconds
+2023-06-19 13:41:03,636 DEBUG - Building initial topic tree
+2023-06-19 13:41:03,684 DEBUG - Started JMX Metrics Reporting.
+2023-06-19 13:41:03,722 INFO  - Starting HiveMQ extension system.
+2023-06-19 13:41:03,750 DEBUG - Starting extension with id "hivemq-allow-all-extension" at C:\Users\sschneider\Github\siteSync\sparkplug\hivemq-ce-2023.3\hivemq-ce-2023.3\extensions\hivemq-allow-all-extension
+2023-06-19 13:41:03,758 WARN  - 
+################################################################################################################
+# This HiveMQ deployment is not secure! You are lacking Authentication and Authorization.                      #
+# Right now any MQTT client can connect to the broker with a full set of permissions.                          #
+# For production usage, add an appropriate security extension and remove the hivemq-allow-all extension.       #
+# You can download security extensions from the HiveMQ Marketplace (https://www.hivemq.com/extensions/).       #
+################################################################################################################
+2023-06-19 13:41:03,759 DEBUG - Simple authenticator added by extension 'hivemq-allow-all-extension'.
+2023-06-19 13:41:03,759 INFO  - Extension "Allow All Extension" version 1.0.0 started successfully.
+2023-06-19 13:41:03,760 DEBUG - Starting extension with id "sparkplug-tck" at C:\Users\sschneider\Github\siteSync\sparkplug\hivemq-ce-2023.3\hivemq-ce-2023.3\extensions\sparkplug-tck
+2023-06-19 13:41:03,769 INFO  - Extension "Eclipse™ Sparkplug™ TCK" version 3.0.0 started successfully.
+2023-06-19 13:41:03,790 INFO  - Starting TCP listener on address 0.0.0.0 and port 1883
+2023-06-19 13:41:04,417 INFO  - Starting Websocket listener on address 0.0.0.0 and port 8000
+2023-06-19 13:41:04,424 INFO  - Started TCP Listener on address 0.0.0.0 and on port 1883
+2023-06-19 13:41:04,425 INFO  - Started Websocket Listener on address 0.0.0.0 and on port 8000
+2023-06-19 13:41:04,425 INFO  - Started HiveMQ in 2800ms
+2023-06-19 13:41:06,577 DEBUG - Sent anonymous usage statistics
+2023-06-19 13:44:45,754 DEBUG - Client with ID 127.0.0.1 and IP {} disconnected. The client was idle for too long without sending an MQTT control packet
+2023-06-19 13:46:04,978 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-19 13:52:24,769 DEBUG - Client with ID 127.0.0.1 and IP {} disconnected. The client was idle for too long without sending an MQTT control packet
+2023-06-19 13:56:34,753 DEBUG - Client with ID 127.0.0.1 and IP {} disconnected. The client was idle for too long without sending an MQTT control packet
+2023-06-19 13:58:04,969 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-19 14:00:04,977 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-19 14:02:04,977 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-19 14:04:04,968 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-19 14:06:04,973 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-19 14:08:04,962 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-19 14:10:04,968 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-19 14:12:04,979 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-19 14:14:04,987 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-19 14:16:04,974 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-19 14:18:04,986 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-19 14:20:04,997 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-19 14:22:04,985 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-19 14:24:05,002 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-19 14:26:04,973 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-19 14:28:04,985 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-19 14:30:04,996 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-19 14:32:04,985 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-19 14:34:05,006 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-19 14:36:05,000 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-19 14:38:04,994 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-19 14:40:05,000 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-19 14:42:04,979 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-19 14:44:04,995 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-19 14:46:04,980 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-19 14:46:20,738 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-19 14:46:25,060 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-19 14:46:29,397 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-19 14:46:33,737 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-19 14:46:38,076 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-19 14:46:48,195 INFO  - Starting HiveMQ Community Edition Server
+2023-06-19 14:46:48,196 INFO  - HiveMQ version: 2023.3
+2023-06-19 14:46:48,196 INFO  - HiveMQ home directory: C:\Users\sschneider\Github\siteSync\sparkplug\hivemq-ce-2023.3\hivemq-ce-2023.3
+2023-06-19 14:46:48,198 INFO  - Log Configuration was overridden by C:\Users\sschneider\Github\siteSync\sparkplug\hivemq-ce-2023.3\hivemq-ce-2023.3\conf\logback.xml
+2023-06-19 14:46:48,234 DEBUG - Reading configuration file C:\Users\sschneider\Github\siteSync\sparkplug\hivemq-ce-2023.3\hivemq-ce-2023.3\conf\config.xml
+2023-06-19 14:46:48,366 DEBUG - Adding TCP Listener on bind address 0.0.0.0 and port 1883. Name: tcp-listener-1883.
+2023-06-19 14:46:48,367 DEBUG - Adding Websocket Listener on bind address 0.0.0.0 and port 8000. Name: my-websocket-listener.
+2023-06-19 14:46:48,367 DEBUG - Setting retained messages enabled to true
+2023-06-19 14:46:48,367 DEBUG - Setting wildcard subscriptions enabled to true
+2023-06-19 14:46:48,368 DEBUG - Setting subscription identifier enabled to true
+2023-06-19 14:46:48,368 DEBUG - Setting shared subscriptions enabled to true
+2023-06-19 14:46:48,368 DEBUG - Setting maximum qos to EXACTLY_ONCE 
+2023-06-19 14:46:48,368 DEBUG - Setting topic alias enabled to true
+2023-06-19 14:46:48,368 DEBUG - Setting topic alias maximum per client to 5
+2023-06-19 14:46:48,369 DEBUG - Setting the number of max queued messages  per client to 1000 entries
+2023-06-19 14:46:48,369 DEBUG - Setting queued messages strategy for each client to DISCARD
+2023-06-19 14:46:48,369 DEBUG - Setting the expiry interval for client sessions to 4294967295 seconds
+2023-06-19 14:46:48,369 DEBUG - Setting the expiry interval for publish messages to 4294967296 seconds
+2023-06-19 14:46:48,369 DEBUG - Setting the server receive maximum to 10
+2023-06-19 14:46:48,369 DEBUG - Setting keep alive maximum to 65535 seconds
+2023-06-19 14:46:48,370 DEBUG - Setting keep alive allow zero to true
+2023-06-19 14:46:48,370 DEBUG - Setting the maximum packet size for mqtt messages 268435460 bytes
+2023-06-19 14:46:48,370 DEBUG - Setting global maximum allowed connections to -1
+2023-06-19 14:46:48,370 DEBUG - Setting the maximum client id length to 65535
+2023-06-19 14:46:48,371 DEBUG - Setting the timeout for disconnecting idle tcp connections before a connect message was received to 10000 milliseconds
+2023-06-19 14:46:48,371 DEBUG - Throttling the global incoming traffic limit 0 bytes/second
+2023-06-19 14:46:48,371 DEBUG - Setting the maximum topic length to 65535
+2023-06-19 14:46:48,371 DEBUG - Setting allow server assigned client identifier to true
+2023-06-19 14:46:48,371 DEBUG - Setting validate UTF-8 to true
+2023-06-19 14:46:48,372 DEBUG - Setting payload format validation to false
+2023-06-19 14:46:48,372 DEBUG - Setting allow-problem-information to true
+2023-06-19 14:46:48,372 DEBUG - Setting anonymous usage statistics enabled to true 
+2023-06-19 14:46:48,373 INFO  - This HiveMQ ID is IJDBM
+2023-06-19 14:46:48,773 DEBUG - 1.98 GB allocated for qos 0 inflight messages
+2023-06-19 14:46:49,523 DEBUG - Can't open directory channel. Log directory fsync won't be performed.
+2023-06-19 14:46:49,741 DEBUG - Initializing payload reference count and queue sizes for client_queue persistence.
+2023-06-19 14:46:49,917 INFO  - Starting with file persistence mode.
+2023-06-19 14:46:49,971 DEBUG - Diagnostic mode is disabled
+2023-06-19 14:46:50,174 DEBUG - Throttling incoming traffic to 0 B/s
+2023-06-19 14:46:50,174 DEBUG - Throttling outgoing traffic to 0 B/s
+2023-06-19 14:46:50,190 DEBUG - Set extension executor thread pool size to 20
+2023-06-19 14:46:50,191 DEBUG - Set extension executor thread pool keep-alive to 30 seconds
+2023-06-19 14:46:50,231 DEBUG - Building initial topic tree
+2023-06-19 14:46:50,289 DEBUG - Started JMX Metrics Reporting.
+2023-06-19 14:46:50,327 INFO  - Starting HiveMQ extension system.
+2023-06-19 14:46:50,356 DEBUG - Starting extension with id "hivemq-allow-all-extension" at C:\Users\sschneider\Github\siteSync\sparkplug\hivemq-ce-2023.3\hivemq-ce-2023.3\extensions\hivemq-allow-all-extension
+2023-06-19 14:46:50,363 WARN  - 
+################################################################################################################
+# This HiveMQ deployment is not secure! You are lacking Authentication and Authorization.                      #
+# Right now any MQTT client can connect to the broker with a full set of permissions.                          #
+# For production usage, add an appropriate security extension and remove the hivemq-allow-all extension.       #
+# You can download security extensions from the HiveMQ Marketplace (https://www.hivemq.com/extensions/).       #
+################################################################################################################
+2023-06-19 14:46:50,365 DEBUG - Simple authenticator added by extension 'hivemq-allow-all-extension'.
+2023-06-19 14:46:50,365 INFO  - Extension "Allow All Extension" version 1.0.0 started successfully.
+2023-06-19 14:46:50,366 DEBUG - Starting extension with id "sparkplug-tck" at C:\Users\sschneider\Github\siteSync\sparkplug\hivemq-ce-2023.3\hivemq-ce-2023.3\extensions\sparkplug-tck
+2023-06-19 14:46:50,375 INFO  - Extension "Eclipse™ Sparkplug™ TCK" version 3.0.0 started successfully.
+2023-06-19 14:46:50,396 INFO  - Starting TCP listener on address 0.0.0.0 and port 1883
+2023-06-19 14:46:50,985 INFO  - Starting Websocket listener on address 0.0.0.0 and port 8000
+2023-06-19 14:46:50,991 INFO  - Started TCP Listener on address 0.0.0.0 and on port 1883
+2023-06-19 14:46:50,992 INFO  - Started Websocket Listener on address 0.0.0.0 and on port 8000
+2023-06-19 14:46:50,992 INFO  - Started HiveMQ in 2806ms
+2023-06-19 14:46:53,487 DEBUG - Sent anonymous usage statistics
+2023-06-19 14:46:53,997 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-19 14:46:57,954 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-19 14:46:58,333 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-19 14:47:02,276 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-19 14:47:02,672 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-19 14:47:06,593 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-19 14:47:07,005 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-19 15:21:06,457 INFO  - Starting HiveMQ Community Edition Server
+2023-06-19 15:21:06,458 INFO  - HiveMQ version: 2023.3
+2023-06-19 15:21:06,458 INFO  - HiveMQ home directory: C:\Users\sschneider\Github\siteSync\sparkplug\hivemq-ce-2023.3\hivemq-ce-2023.3
+2023-06-19 15:21:06,469 INFO  - Log Configuration was overridden by C:\Users\sschneider\Github\siteSync\sparkplug\hivemq-ce-2023.3\hivemq-ce-2023.3\conf\logback.xml
+2023-06-19 15:21:06,510 DEBUG - Reading configuration file C:\Users\sschneider\Github\siteSync\sparkplug\hivemq-ce-2023.3\hivemq-ce-2023.3\conf\config.xml
+2023-06-19 15:21:06,677 DEBUG - Adding TCP Listener on bind address 0.0.0.0 and port 1883. Name: tcp-listener-1883.
+2023-06-19 15:21:06,677 DEBUG - Adding Websocket Listener on bind address 0.0.0.0 and port 8000. Name: my-websocket-listener.
+2023-06-19 15:21:06,678 DEBUG - Setting retained messages enabled to true
+2023-06-19 15:21:06,678 DEBUG - Setting wildcard subscriptions enabled to true
+2023-06-19 15:21:06,678 DEBUG - Setting subscription identifier enabled to true
+2023-06-19 15:21:06,678 DEBUG - Setting shared subscriptions enabled to true
+2023-06-19 15:21:06,678 DEBUG - Setting maximum qos to EXACTLY_ONCE 
+2023-06-19 15:21:06,678 DEBUG - Setting topic alias enabled to true
+2023-06-19 15:21:06,678 DEBUG - Setting topic alias maximum per client to 5
+2023-06-19 15:21:06,678 DEBUG - Setting the number of max queued messages  per client to 1000 entries
+2023-06-19 15:21:06,678 DEBUG - Setting queued messages strategy for each client to DISCARD
+2023-06-19 15:21:06,678 DEBUG - Setting the expiry interval for client sessions to 4294967295 seconds
+2023-06-19 15:21:06,678 DEBUG - Setting the expiry interval for publish messages to 4294967296 seconds
+2023-06-19 15:21:06,678 DEBUG - Setting the server receive maximum to 10
+2023-06-19 15:21:06,678 DEBUG - Setting keep alive maximum to 65535 seconds
+2023-06-19 15:21:06,678 DEBUG - Setting keep alive allow zero to true
+2023-06-19 15:21:06,678 DEBUG - Setting the maximum packet size for mqtt messages 268435460 bytes
+2023-06-19 15:21:06,678 DEBUG - Setting global maximum allowed connections to -1
+2023-06-19 15:21:06,678 DEBUG - Setting the maximum client id length to 65535
+2023-06-19 15:21:06,678 DEBUG - Setting the timeout for disconnecting idle tcp connections before a connect message was received to 10000 milliseconds
+2023-06-19 15:21:06,678 DEBUG - Throttling the global incoming traffic limit 0 bytes/second
+2023-06-19 15:21:06,678 DEBUG - Setting the maximum topic length to 65535
+2023-06-19 15:21:06,678 DEBUG - Setting allow server assigned client identifier to true
+2023-06-19 15:21:06,678 DEBUG - Setting validate UTF-8 to true
+2023-06-19 15:21:06,679 DEBUG - Setting payload format validation to false
+2023-06-19 15:21:06,679 DEBUG - Setting allow-problem-information to true
+2023-06-19 15:21:06,679 DEBUG - Setting anonymous usage statistics enabled to true 
+2023-06-19 15:21:06,680 INFO  - This HiveMQ ID is OKONy
+2023-06-19 15:21:07,087 DEBUG - 1.98 GB allocated for qos 0 inflight messages
+2023-06-19 15:21:07,857 DEBUG - Can't open directory channel. Log directory fsync won't be performed.
+2023-06-19 15:21:08,094 DEBUG - Initializing payload reference count and queue sizes for client_queue persistence.
+2023-06-19 15:21:08,259 INFO  - Starting with file persistence mode.
+2023-06-19 15:21:08,323 DEBUG - Diagnostic mode is disabled
+2023-06-19 15:21:08,550 DEBUG - Throttling incoming traffic to 0 B/s
+2023-06-19 15:21:08,550 DEBUG - Throttling outgoing traffic to 0 B/s
+2023-06-19 15:21:08,586 DEBUG - Set extension executor thread pool size to 20
+2023-06-19 15:21:08,587 DEBUG - Set extension executor thread pool keep-alive to 30 seconds
+2023-06-19 15:21:08,626 DEBUG - Building initial topic tree
+2023-06-19 15:21:08,666 DEBUG - Started JMX Metrics Reporting.
+2023-06-19 15:21:08,700 INFO  - Starting HiveMQ extension system.
+2023-06-19 15:21:08,734 DEBUG - Starting extension with id "hivemq-allow-all-extension" at C:\Users\sschneider\Github\siteSync\sparkplug\hivemq-ce-2023.3\hivemq-ce-2023.3\extensions\hivemq-allow-all-extension
+2023-06-19 15:21:08,741 WARN  - 
+################################################################################################################
+# This HiveMQ deployment is not secure! You are lacking Authentication and Authorization.                      #
+# Right now any MQTT client can connect to the broker with a full set of permissions.                          #
+# For production usage, add an appropriate security extension and remove the hivemq-allow-all extension.       #
+# You can download security extensions from the HiveMQ Marketplace (https://www.hivemq.com/extensions/).       #
+################################################################################################################
+2023-06-19 15:21:08,743 DEBUG - Simple authenticator added by extension 'hivemq-allow-all-extension'.
+2023-06-19 15:21:08,744 INFO  - Extension "Allow All Extension" version 1.0.0 started successfully.
+2023-06-19 15:21:08,745 DEBUG - Starting extension with id "sparkplug-tck" at C:\Users\sschneider\Github\siteSync\sparkplug\hivemq-ce-2023.3\hivemq-ce-2023.3\extensions\sparkplug-tck
+2023-06-19 15:21:08,756 INFO  - Extension "Eclipse™ Sparkplug™ TCK" version 3.0.0 started successfully.
+2023-06-19 15:21:08,787 INFO  - Starting TCP listener on address 0.0.0.0 and port 1883
+2023-06-19 15:21:09,236 INFO  - Starting Websocket listener on address 0.0.0.0 and port 8000
+2023-06-19 15:21:09,243 INFO  - Started TCP Listener on address 0.0.0.0 and on port 1883
+2023-06-19 15:21:09,243 INFO  - Started Websocket Listener on address 0.0.0.0 and on port 8000
+2023-06-19 15:21:09,243 INFO  - Started HiveMQ in 2791ms
+2023-06-19 15:21:11,165 DEBUG - Sent anonymous usage statistics
+2023-06-19 15:27:43,755 DEBUG - Client with ID 127.0.0.1 and IP {} disconnected. The client was idle for too long without sending an MQTT control packet
+2023-06-19 15:33:31,635 DEBUG - Client with ID 127.0.0.1 and IP {} disconnected. The client was idle for too long without sending an MQTT control packet
+2023-06-19 15:38:16,637 DEBUG - Client with ID 127.0.0.1 and IP {} disconnected. The client was idle for too long without sending an MQTT control packet
+2023-06-19 15:39:56,846 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-19 15:41:56,855 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-19 15:43:56,841 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-19 15:45:56,834 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-19 15:47:56,831 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-19 15:49:56,837 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-19 15:51:56,846 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-19 15:53:56,840 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-19 15:55:56,850 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-19 16:00:33,643 DEBUG - Client with ID 127.0.0.1 and IP {} disconnected. The client was idle for too long without sending an MQTT control packet
+2023-06-19 16:01:56,834 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-19 16:03:56,838 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-19 16:05:56,841 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-19 16:07:56,837 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-19 16:09:56,825 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-19 16:11:56,855 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-19 16:13:56,835 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-19 16:15:56,843 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-19 16:17:56,843 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-19 16:19:56,854 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-19 16:21:56,851 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-19 16:23:56,858 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-19 16:25:56,856 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-19 16:27:56,856 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-19 16:29:56,851 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-19 16:31:56,869 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-19 16:33:56,854 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-19 16:35:56,851 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-19 16:37:56,861 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-19 16:39:56,850 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-19 16:41:56,857 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-19 16:43:56,848 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-19 16:45:56,842 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-19 16:47:56,850 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-19 16:49:56,864 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-19 16:51:56,843 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-19 16:53:56,842 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-19 16:55:56,833 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-19 16:57:56,835 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-19 16:59:56,845 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-19 17:01:56,828 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-19 17:03:56,823 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-19 17:05:56,846 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-19 17:07:56,838 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-19 17:09:56,849 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-19 17:11:56,850 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-19 17:13:56,850 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-19 17:15:56,845 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-19 17:17:56,842 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-19 17:19:56,864 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-19 17:21:56,852 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.

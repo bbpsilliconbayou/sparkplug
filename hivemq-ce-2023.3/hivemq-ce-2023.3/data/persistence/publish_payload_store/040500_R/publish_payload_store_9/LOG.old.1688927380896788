@@ -1,0 +1,108 @@
+2023/07/09-13:12:23.081786 3560 RocksDB version: 7.4.5
+2023/07/09-13:12:23.081858 3560 Git sha e072c129d57a0883370034cecf6774c745c40f76
+2023/07/09-13:12:23.081880 3560 Compile date 2022-08-15 17:16:22
+2023/07/09-13:12:23.081895 3560 DB SUMMARY
+2023/07/09-13:12:23.081911 3560 DB Session ID:  YN1D7O5BTZ1MG9CCCWNA
+2023/07/09-13:12:23.110073 3560 CURRENT file:  CURRENT
+2023/07/09-13:12:23.110102 3560 IDENTITY file:  IDENTITY
+2023/07/09-13:12:23.110998 3560 MANIFEST file:  MANIFEST-000050 size: 170 Bytes
+2023/07/09-13:12:23.111021 3560 SST files in C:\Users\sschneider\Github\siteSync\sparkplug\hivemq-ce-2023.3\hivemq-ce-2023.3\data\persistence\publish_payload_store\040500_R\publish_payload_store_9 dir, Total Num: 1, files: 000048.sst 
+2023/07/09-13:12:23.111036 3560 Write Ahead Log file in C:\Users\sschneider\Github\siteSync\sparkplug\hivemq-ce-2023.3\hivemq-ce-2023.3\data\persistence\publish_payload_store\040500_R\publish_payload_store_9: 000049.log size: 220 ; 
+2023/07/09-13:12:23.111160 3560                         Options.error_if_exists: 0
+2023/07/09-13:12:23.111173 3560                       Options.create_if_missing: 1
+2023/07/09-13:12:23.111181 3560                         Options.paranoid_checks: 1
+2023/07/09-13:12:23.111189 3560             Options.flush_verify_memtable_count: 1
+2023/07/09-13:12:23.111197 3560                               Options.track_and_verify_wals_in_manifest: 0
+2023/07/09-13:12:23.111206 3560        Options.verify_sst_unique_id_in_manifest: 0
+2023/07/09-13:12:23.111214 3560                                     Options.env: 0000029395D9B850
+2023/07/09-13:12:23.111222 3560                                      Options.fs: WinFS
+2023/07/09-13:12:23.111229 3560                                Options.info_log: 0000029395837D30
+2023/07/09-13:12:23.111238 3560                Options.max_file_opening_threads: 16
+2023/07/09-13:12:23.111246 3560                              Options.statistics: 000002939736C0E0
+2023/07/09-13:12:23.111254 3560                               Options.use_fsync: 0
+2023/07/09-13:12:23.111261 3560                       Options.max_log_file_size: 512000
+2023/07/09-13:12:23.111271 3560                  Options.max_manifest_file_size: 1073741824
+2023/07/09-13:12:23.111278 3560                   Options.log_file_time_to_roll: 0
+2023/07/09-13:12:23.111285 3560                       Options.keep_log_file_num: 2
+2023/07/09-13:12:23.111293 3560                    Options.recycle_log_file_num: 0
+2023/07/09-13:12:23.111300 3560                         Options.allow_fallocate: 1
+2023/07/09-13:12:23.111307 3560                        Options.allow_mmap_reads: 0
+2023/07/09-13:12:23.111314 3560                       Options.allow_mmap_writes: 0
+2023/07/09-13:12:23.111321 3560                        Options.use_direct_reads: 0
+2023/07/09-13:12:23.111329 3560                        Options.use_direct_io_for_flush_and_compaction: 0
+2023/07/09-13:12:23.111337 3560          Options.create_missing_column_families: 0
+2023/07/09-13:12:23.111344 3560                              Options.db_log_dir: 
+2023/07/09-13:12:23.111351 3560                                 Options.wal_dir: 
+2023/07/09-13:12:23.111358 3560                Options.table_cache_numshardbits: 6
+2023/07/09-13:12:23.111366 3560                         Options.WAL_ttl_seconds: 0
+2023/07/09-13:12:23.111373 3560                       Options.WAL_size_limit_MB: 0
+2023/07/09-13:12:23.111381 3560                        Options.max_write_batch_group_size_bytes: 1048576
+2023/07/09-13:12:23.111389 3560             Options.manifest_preallocation_size: 4194304
+2023/07/09-13:12:23.111397 3560                     Options.is_fd_close_on_exec: 1
+2023/07/09-13:12:23.111404 3560                   Options.advise_random_on_open: 1
+2023/07/09-13:12:23.111413 3560                   Options.experimental_mempurge_threshold: 0.000000
+2023/07/09-13:12:23.111420 3560                    Options.db_write_buffer_size: 0
+2023/07/09-13:12:23.111428 3560                    Options.write_buffer_manager: 00000293978706F0
+2023/07/09-13:12:23.111436 3560         Options.access_hint_on_compaction_start: 1
+2023/07/09-13:12:23.111464 3560           Options.random_access_max_buffer_size: 1048576
+2023/07/09-13:12:23.111474 3560                      Options.use_adaptive_mutex: 0
+2023/07/09-13:12:23.111483 3560                            Options.rate_limiter: 0000000000000000
+2023/07/09-13:12:23.111491 3560     Options.sst_file_manager.rate_bytes_per_sec: 0
+2023/07/09-13:12:23.111502 3560                       Options.wal_recovery_mode: 2
+2023/07/09-13:12:23.111522 3560                  Options.enable_thread_tracking: 0
+2023/07/09-13:12:23.111531 3560                  Options.enable_pipelined_write: 0
+2023/07/09-13:12:23.111538 3560                  Options.unordered_write: 0
+2023/07/09-13:12:23.111546 3560         Options.allow_concurrent_memtable_write: 1
+2023/07/09-13:12:23.111554 3560      Options.enable_write_thread_adaptive_yield: 1
+2023/07/09-13:12:23.111564 3560             Options.write_thread_max_yield_usec: 100
+2023/07/09-13:12:23.111572 3560            Options.write_thread_slow_yield_usec: 3
+2023/07/09-13:12:23.111580 3560                               Options.row_cache: None
+2023/07/09-13:12:23.111588 3560                              Options.wal_filter: None
+2023/07/09-13:12:23.111596 3560             Options.avoid_flush_during_recovery: 0
+2023/07/09-13:12:23.111604 3560             Options.allow_ingest_behind: 0
+2023/07/09-13:12:23.111611 3560             Options.two_write_queues: 0
+2023/07/09-13:12:23.111618 3560             Options.manual_wal_flush: 0
+2023/07/09-13:12:23.111625 3560             Options.wal_compression: 0
+2023/07/09-13:12:23.111633 3560             Options.atomic_flush: 0
+2023/07/09-13:12:23.111641 3560             Options.avoid_unnecessary_blocking_io: 0
+2023/07/09-13:12:23.111649 3560                 Options.persist_stats_to_disk: 0
+2023/07/09-13:12:23.111656 3560                 Options.write_dbid_to_manifest: 0
+2023/07/09-13:12:23.111663 3560                 Options.log_readahead_size: 0
+2023/07/09-13:12:23.111670 3560                 Options.file_checksum_gen_factory: Unknown
+2023/07/09-13:12:23.111677 3560                 Options.best_efforts_recovery: 0
+2023/07/09-13:12:23.111685 3560                Options.max_bgerror_resume_count: 2147483647
+2023/07/09-13:12:23.111694 3560            Options.bgerror_resume_retry_interval: 1000000
+2023/07/09-13:12:23.111702 3560             Options.allow_data_in_errors: 0
+2023/07/09-13:12:23.111709 3560             Options.db_host_id: __hostname__
+2023/07/09-13:12:23.111718 3560             Options.enforce_single_del_contracts: true
+2023/07/09-13:12:23.111728 3560             Options.max_background_jobs: 2
+2023/07/09-13:12:23.111735 3560             Options.max_background_compactions: -1
+2023/07/09-13:12:23.111744 3560             Options.max_subcompactions: 1
+2023/07/09-13:12:23.111752 3560             Options.avoid_flush_during_shutdown: 0
+2023/07/09-13:12:23.111760 3560           Options.writable_file_max_buffer_size: 1048576
+2023/07/09-13:12:23.111769 3560             Options.delayed_write_rate : 16777216
+2023/07/09-13:12:23.111777 3560             Options.max_total_wal_size: 0
+2023/07/09-13:12:23.111786 3560             Options.delete_obsolete_files_period_micros: 21600000000
+2023/07/09-13:12:23.111795 3560                   Options.stats_dump_period_sec: 0
+2023/07/09-13:12:23.111804 3560                 Options.stats_persist_period_sec: 0
+2023/07/09-13:12:23.111812 3560                 Options.stats_history_buffer_size: 65536
+2023/07/09-13:12:23.111820 3560                          Options.max_open_files: -1
+2023/07/09-13:12:23.111828 3560                          Options.bytes_per_sync: 0
+2023/07/09-13:12:23.111836 3560                      Options.wal_bytes_per_sync: 0
+2023/07/09-13:12:23.111843 3560                   Options.strict_bytes_per_sync: 0
+2023/07/09-13:12:23.111851 3560       Options.compaction_readahead_size: 0
+2023/07/09-13:12:23.111860 3560                  Options.max_background_flushes: -1
+2023/07/09-13:12:23.111868 3560 Compression algorithms supported:
+2023/07/09-13:12:23.111876 3560 	kZSTD supported: 1
+2023/07/09-13:12:23.111900 3560 	kSnappyCompression supported: 1
+2023/07/09-13:12:23.111909 3560 	kBZip2Compression supported: 0
+2023/07/09-13:12:23.111916 3560 	kZlibCompression supported: 1
+2023/07/09-13:12:23.111924 3560 	kLZ4Compression supported: 1
+2023/07/09-13:12:23.111932 3560 	kXpressCompression supported: 0
+2023/07/09-13:12:23.111940 3560 	kLZ4HCCompression supported: 1
+2023/07/09-13:12:23.111948 3560 	kZSTDNotFinalCompression supported: 1
+2023/07/09-13:12:23.111958 3560 Fast CRC32 supported: Not supported on x86
+2023/07/09-13:12:23.111965 3560 DMutex implementation: std::mutex
+2023/07/09-13:12:23.147036 3560 [WARN] [db\db_impl\db_impl_open.cc:2055] DB::Open() failed: Corruption: CURRENT file corrupted
+2023/07/09-13:12:23.147050 3560 [db\db_impl\db_impl.cc:480] Shutdown: canceling all background work
+2023/07/09-13:12:23.147098 3560 [db\db_impl\db_impl.cc:710] Shutdown complete

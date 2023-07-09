@@ -1,0 +1,108 @@
+2023/07/09-13:12:23.105188 bbc RocksDB version: 7.4.5
+2023/07/09-13:12:23.105263 bbc Git sha e072c129d57a0883370034cecf6774c745c40f76
+2023/07/09-13:12:23.105286 bbc Compile date 2022-08-15 17:16:22
+2023/07/09-13:12:23.105303 bbc DB SUMMARY
+2023/07/09-13:12:23.105320 bbc DB Session ID:  YN1D7O5BTZ1MG9CCCWNV
+2023/07/09-13:12:23.132085 bbc CURRENT file:  CURRENT
+2023/07/09-13:12:23.132115 bbc IDENTITY file:  IDENTITY
+2023/07/09-13:12:23.132245 bbc MANIFEST file:  MANIFEST-000050 size: 170 Bytes
+2023/07/09-13:12:23.132263 bbc SST files in C:\Users\sschneider\Github\siteSync\sparkplug\hivemq-ce-2023.3\hivemq-ce-2023.3\data\persistence\publish_payload_store\040500_R\publish_payload_store_20 dir, Total Num: 1, files: 000048.sst 
+2023/07/09-13:12:23.132277 bbc Write Ahead Log file in C:\Users\sschneider\Github\siteSync\sparkplug\hivemq-ce-2023.3\hivemq-ce-2023.3\data\persistence\publish_payload_store\040500_R\publish_payload_store_20: 000049.log size: 199 ; 
+2023/07/09-13:12:23.132376 bbc                         Options.error_if_exists: 0
+2023/07/09-13:12:23.132386 bbc                       Options.create_if_missing: 1
+2023/07/09-13:12:23.132394 bbc                         Options.paranoid_checks: 1
+2023/07/09-13:12:23.132400 bbc             Options.flush_verify_memtable_count: 1
+2023/07/09-13:12:23.132407 bbc                               Options.track_and_verify_wals_in_manifest: 0
+2023/07/09-13:12:23.132415 bbc        Options.verify_sst_unique_id_in_manifest: 0
+2023/07/09-13:12:23.132422 bbc                                     Options.env: 0000029395D9B850
+2023/07/09-13:12:23.132429 bbc                                      Options.fs: WinFS
+2023/07/09-13:12:23.132436 bbc                                Options.info_log: 00000293965B02E0
+2023/07/09-13:12:23.132444 bbc                Options.max_file_opening_threads: 16
+2023/07/09-13:12:23.132451 bbc                              Options.statistics: 000002939736C0E0
+2023/07/09-13:12:23.132458 bbc                               Options.use_fsync: 0
+2023/07/09-13:12:23.132466 bbc                       Options.max_log_file_size: 512000
+2023/07/09-13:12:23.132474 bbc                  Options.max_manifest_file_size: 1073741824
+2023/07/09-13:12:23.132481 bbc                   Options.log_file_time_to_roll: 0
+2023/07/09-13:12:23.132497 bbc                       Options.keep_log_file_num: 2
+2023/07/09-13:12:23.132504 bbc                    Options.recycle_log_file_num: 0
+2023/07/09-13:12:23.132511 bbc                         Options.allow_fallocate: 1
+2023/07/09-13:12:23.132519 bbc                        Options.allow_mmap_reads: 0
+2023/07/09-13:12:23.132526 bbc                       Options.allow_mmap_writes: 0
+2023/07/09-13:12:23.132534 bbc                        Options.use_direct_reads: 0
+2023/07/09-13:12:23.132541 bbc                        Options.use_direct_io_for_flush_and_compaction: 0
+2023/07/09-13:12:23.132548 bbc          Options.create_missing_column_families: 0
+2023/07/09-13:12:23.132555 bbc                              Options.db_log_dir: 
+2023/07/09-13:12:23.132561 bbc                                 Options.wal_dir: 
+2023/07/09-13:12:23.132568 bbc                Options.table_cache_numshardbits: 6
+2023/07/09-13:12:23.132576 bbc                         Options.WAL_ttl_seconds: 0
+2023/07/09-13:12:23.132583 bbc                       Options.WAL_size_limit_MB: 0
+2023/07/09-13:12:23.132592 bbc                        Options.max_write_batch_group_size_bytes: 1048576
+2023/07/09-13:12:23.132599 bbc             Options.manifest_preallocation_size: 4194304
+2023/07/09-13:12:23.132606 bbc                     Options.is_fd_close_on_exec: 1
+2023/07/09-13:12:23.132615 bbc                   Options.advise_random_on_open: 1
+2023/07/09-13:12:23.132625 bbc                   Options.experimental_mempurge_threshold: 0.000000
+2023/07/09-13:12:23.132633 bbc                    Options.db_write_buffer_size: 0
+2023/07/09-13:12:23.132640 bbc                    Options.write_buffer_manager: 00000293961B12C0
+2023/07/09-13:12:23.132648 bbc         Options.access_hint_on_compaction_start: 1
+2023/07/09-13:12:23.132656 bbc           Options.random_access_max_buffer_size: 1048576
+2023/07/09-13:12:23.132692 bbc                      Options.use_adaptive_mutex: 0
+2023/07/09-13:12:23.132703 bbc                            Options.rate_limiter: 0000000000000000
+2023/07/09-13:12:23.132712 bbc     Options.sst_file_manager.rate_bytes_per_sec: 0
+2023/07/09-13:12:23.132719 bbc                       Options.wal_recovery_mode: 2
+2023/07/09-13:12:23.132726 bbc                  Options.enable_thread_tracking: 0
+2023/07/09-13:12:23.132733 bbc                  Options.enable_pipelined_write: 0
+2023/07/09-13:12:23.132740 bbc                  Options.unordered_write: 0
+2023/07/09-13:12:23.132748 bbc         Options.allow_concurrent_memtable_write: 1
+2023/07/09-13:12:23.132755 bbc      Options.enable_write_thread_adaptive_yield: 1
+2023/07/09-13:12:23.132762 bbc             Options.write_thread_max_yield_usec: 100
+2023/07/09-13:12:23.132769 bbc            Options.write_thread_slow_yield_usec: 3
+2023/07/09-13:12:23.132776 bbc                               Options.row_cache: None
+2023/07/09-13:12:23.132783 bbc                              Options.wal_filter: None
+2023/07/09-13:12:23.132789 bbc             Options.avoid_flush_during_recovery: 0
+2023/07/09-13:12:23.132795 bbc             Options.allow_ingest_behind: 0
+2023/07/09-13:12:23.132802 bbc             Options.two_write_queues: 0
+2023/07/09-13:12:23.132808 bbc             Options.manual_wal_flush: 0
+2023/07/09-13:12:23.132814 bbc             Options.wal_compression: 0
+2023/07/09-13:12:23.132820 bbc             Options.atomic_flush: 0
+2023/07/09-13:12:23.132827 bbc             Options.avoid_unnecessary_blocking_io: 0
+2023/07/09-13:12:23.132834 bbc                 Options.persist_stats_to_disk: 0
+2023/07/09-13:12:23.132841 bbc                 Options.write_dbid_to_manifest: 0
+2023/07/09-13:12:23.132848 bbc                 Options.log_readahead_size: 0
+2023/07/09-13:12:23.132855 bbc                 Options.file_checksum_gen_factory: Unknown
+2023/07/09-13:12:23.132862 bbc                 Options.best_efforts_recovery: 0
+2023/07/09-13:12:23.132870 bbc                Options.max_bgerror_resume_count: 2147483647
+2023/07/09-13:12:23.132878 bbc            Options.bgerror_resume_retry_interval: 1000000
+2023/07/09-13:12:23.132884 bbc             Options.allow_data_in_errors: 0
+2023/07/09-13:12:23.132892 bbc             Options.db_host_id: __hostname__
+2023/07/09-13:12:23.132898 bbc             Options.enforce_single_del_contracts: true
+2023/07/09-13:12:23.132905 bbc             Options.max_background_jobs: 2
+2023/07/09-13:12:23.132912 bbc             Options.max_background_compactions: -1
+2023/07/09-13:12:23.132918 bbc             Options.max_subcompactions: 1
+2023/07/09-13:12:23.132925 bbc             Options.avoid_flush_during_shutdown: 0
+2023/07/09-13:12:23.132932 bbc           Options.writable_file_max_buffer_size: 1048576
+2023/07/09-13:12:23.132939 bbc             Options.delayed_write_rate : 16777216
+2023/07/09-13:12:23.132945 bbc             Options.max_total_wal_size: 0
+2023/07/09-13:12:23.132952 bbc             Options.delete_obsolete_files_period_micros: 21600000000
+2023/07/09-13:12:23.132959 bbc                   Options.stats_dump_period_sec: 0
+2023/07/09-13:12:23.132967 bbc                 Options.stats_persist_period_sec: 0
+2023/07/09-13:12:23.132975 bbc                 Options.stats_history_buffer_size: 65536
+2023/07/09-13:12:23.132982 bbc                          Options.max_open_files: -1
+2023/07/09-13:12:23.132991 bbc                          Options.bytes_per_sync: 0
+2023/07/09-13:12:23.132999 bbc                      Options.wal_bytes_per_sync: 0
+2023/07/09-13:12:23.133007 bbc                   Options.strict_bytes_per_sync: 0
+2023/07/09-13:12:23.133016 bbc       Options.compaction_readahead_size: 0
+2023/07/09-13:12:23.133023 bbc                  Options.max_background_flushes: -1
+2023/07/09-13:12:23.133033 bbc Compression algorithms supported:
+2023/07/09-13:12:23.133041 bbc 	kZSTD supported: 1
+2023/07/09-13:12:23.133049 bbc 	kSnappyCompression supported: 1
+2023/07/09-13:12:23.133056 bbc 	kBZip2Compression supported: 0
+2023/07/09-13:12:23.133078 bbc 	kZlibCompression supported: 1
+2023/07/09-13:12:23.133086 bbc 	kLZ4Compression supported: 1
+2023/07/09-13:12:23.133092 bbc 	kXpressCompression supported: 0
+2023/07/09-13:12:23.133098 bbc 	kLZ4HCCompression supported: 1
+2023/07/09-13:12:23.133105 bbc 	kZSTDNotFinalCompression supported: 1
+2023/07/09-13:12:23.133113 bbc Fast CRC32 supported: Not supported on x86
+2023/07/09-13:12:23.133121 bbc DMutex implementation: std::mutex
+2023/07/09-13:12:23.156221 bbc [WARN] [db\db_impl\db_impl_open.cc:2055] DB::Open() failed: Corruption: CURRENT file corrupted
+2023/07/09-13:12:23.156234 bbc [db\db_impl\db_impl.cc:480] Shutdown: canceling all background work
+2023/07/09-13:12:23.156301 bbc [db\db_impl\db_impl.cc:710] Shutdown complete

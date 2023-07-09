@@ -1,0 +1,513 @@
+2023-06-21 18:37:00,215 INFO  - Starting HiveMQ Community Edition Server
+2023-06-21 18:37:00,216 INFO  - HiveMQ version: 2023.3
+2023-06-21 18:37:00,216 INFO  - HiveMQ home directory: C:\Users\sschneider\Github\siteSync\sparkplug\hivemq-ce-2023.3\hivemq-ce-2023.3
+2023-06-21 18:37:00,218 INFO  - Log Configuration was overridden by C:\Users\sschneider\Github\siteSync\sparkplug\hivemq-ce-2023.3\hivemq-ce-2023.3\conf\logback.xml
+2023-06-21 18:37:00,273 DEBUG - Reading configuration file C:\Users\sschneider\Github\siteSync\sparkplug\hivemq-ce-2023.3\hivemq-ce-2023.3\conf\config.xml
+2023-06-21 18:37:00,420 DEBUG - Adding TCP Listener on bind address 0.0.0.0 and port 1883. Name: tcp-listener-1883.
+2023-06-21 18:37:00,421 DEBUG - Adding Websocket Listener on bind address 0.0.0.0 and port 8000. Name: my-websocket-listener.
+2023-06-21 18:37:00,422 DEBUG - Setting retained messages enabled to true
+2023-06-21 18:37:00,422 DEBUG - Setting wildcard subscriptions enabled to true
+2023-06-21 18:37:00,422 DEBUG - Setting subscription identifier enabled to true
+2023-06-21 18:37:00,422 DEBUG - Setting shared subscriptions enabled to true
+2023-06-21 18:37:00,422 DEBUG - Setting maximum qos to EXACTLY_ONCE 
+2023-06-21 18:37:00,422 DEBUG - Setting topic alias enabled to true
+2023-06-21 18:37:00,423 DEBUG - Setting topic alias maximum per client to 5
+2023-06-21 18:37:00,423 DEBUG - Setting the number of max queued messages  per client to 1000 entries
+2023-06-21 18:37:00,423 DEBUG - Setting queued messages strategy for each client to DISCARD
+2023-06-21 18:37:00,424 DEBUG - Setting the expiry interval for client sessions to 4294967295 seconds
+2023-06-21 18:37:00,424 DEBUG - Setting the expiry interval for publish messages to 4294967296 seconds
+2023-06-21 18:37:00,424 DEBUG - Setting the server receive maximum to 10
+2023-06-21 18:37:00,424 DEBUG - Setting keep alive maximum to 65535 seconds
+2023-06-21 18:37:00,424 DEBUG - Setting keep alive allow zero to true
+2023-06-21 18:37:00,425 DEBUG - Setting the maximum packet size for mqtt messages 268435460 bytes
+2023-06-21 18:37:00,425 DEBUG - Setting global maximum allowed connections to -1
+2023-06-21 18:37:00,425 DEBUG - Setting the maximum client id length to 65535
+2023-06-21 18:37:00,426 DEBUG - Setting the timeout for disconnecting idle tcp connections before a connect message was received to 10000 milliseconds
+2023-06-21 18:37:00,426 DEBUG - Throttling the global incoming traffic limit 0 bytes/second
+2023-06-21 18:37:00,426 DEBUG - Setting the maximum topic length to 65535
+2023-06-21 18:37:00,426 DEBUG - Setting allow server assigned client identifier to true
+2023-06-21 18:37:00,426 DEBUG - Setting validate UTF-8 to true
+2023-06-21 18:37:00,427 DEBUG - Setting payload format validation to false
+2023-06-21 18:37:00,427 DEBUG - Setting allow-problem-information to true
+2023-06-21 18:37:00,427 DEBUG - Setting anonymous usage statistics enabled to true 
+2023-06-21 18:37:00,428 INFO  - This HiveMQ ID is nWsD4
+2023-06-21 18:37:00,813 DEBUG - 1.98 GB allocated for qos 0 inflight messages
+2023-06-21 18:37:01,625 DEBUG - Can't open directory channel. Log directory fsync won't be performed.
+2023-06-21 18:37:01,853 DEBUG - Initializing payload reference count and queue sizes for client_queue persistence.
+2023-06-21 18:37:02,050 INFO  - Starting with file persistence mode.
+2023-06-21 18:37:02,118 DEBUG - Diagnostic mode is disabled
+2023-06-21 18:37:02,357 DEBUG - Throttling incoming traffic to 0 B/s
+2023-06-21 18:37:02,358 DEBUG - Throttling outgoing traffic to 0 B/s
+2023-06-21 18:37:02,373 DEBUG - Set extension executor thread pool size to 20
+2023-06-21 18:37:02,374 DEBUG - Set extension executor thread pool keep-alive to 30 seconds
+2023-06-21 18:37:02,395 DEBUG - Building initial topic tree
+2023-06-21 18:37:02,449 DEBUG - Started JMX Metrics Reporting.
+2023-06-21 18:37:02,484 INFO  - Starting HiveMQ extension system.
+2023-06-21 18:37:02,514 DEBUG - Starting extension with id "hivemq-allow-all-extension" at C:\Users\sschneider\Github\siteSync\sparkplug\hivemq-ce-2023.3\hivemq-ce-2023.3\extensions\hivemq-allow-all-extension
+2023-06-21 18:37:02,522 WARN  - 
+################################################################################################################
+# This HiveMQ deployment is not secure! You are lacking Authentication and Authorization.                      #
+# Right now any MQTT client can connect to the broker with a full set of permissions.                          #
+# For production usage, add an appropriate security extension and remove the hivemq-allow-all extension.       #
+# You can download security extensions from the HiveMQ Marketplace (https://www.hivemq.com/extensions/).       #
+################################################################################################################
+2023-06-21 18:37:02,524 DEBUG - Simple authenticator added by extension 'hivemq-allow-all-extension'.
+2023-06-21 18:37:02,524 INFO  - Extension "Allow All Extension" version 1.0.0 started successfully.
+2023-06-21 18:37:02,525 DEBUG - Starting extension with id "sparkplug-tck" at C:\Users\sschneider\Github\siteSync\sparkplug\hivemq-ce-2023.3\hivemq-ce-2023.3\extensions\sparkplug-tck
+2023-06-21 18:37:02,535 INFO  - Extension "Eclipse™ Sparkplug™ TCK" version 3.0.0 started successfully.
+2023-06-21 18:37:02,565 INFO  - Starting TCP listener on address 0.0.0.0 and port 1883
+2023-06-21 18:37:03,099 INFO  - Starting Websocket listener on address 0.0.0.0 and port 8000
+2023-06-21 18:37:03,104 WARN  - An exception was thrown by com.hivemq.bootstrap.HiveMQNettyBootstrap$UpdateGivenFutureListener.operationComplete()
+java.lang.NullPointerException: null
+	at com.hivemq.bootstrap.HiveMQNettyBootstrap$UpdateGivenFutureListener.operationComplete(HiveMQNettyBootstrap.java:294)
+	at com.hivemq.bootstrap.HiveMQNettyBootstrap$UpdateGivenFutureListener.operationComplete(HiveMQNettyBootstrap.java:278)
+	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:578)
+	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:552)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:491)
+	at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:616)
+	at io.netty.util.concurrent.DefaultPromise.setFailure0(DefaultPromise.java:609)
+	at io.netty.util.concurrent.DefaultPromise.tryFailure(DefaultPromise.java:117)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.safeSetFailure(AbstractChannel.java:999)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:564)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1334)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeBind(AbstractChannelHandlerContext.java:506)
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:491)
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:973)
+	at io.netty.channel.AbstractChannel.bind(AbstractChannel.java:260)
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:356)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:503)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-06-21 18:38:22,177 INFO  - Starting HiveMQ Community Edition Server
+2023-06-21 18:38:22,178 INFO  - HiveMQ version: 2023.3
+2023-06-21 18:38:22,178 INFO  - HiveMQ home directory: C:\Users\sschneider\Github\siteSync\sparkplug\hivemq-ce-2023.3\hivemq-ce-2023.3
+2023-06-21 18:38:22,184 INFO  - Log Configuration was overridden by C:\Users\sschneider\Github\siteSync\sparkplug\hivemq-ce-2023.3\hivemq-ce-2023.3\conf\logback.xml
+2023-06-21 18:38:22,225 DEBUG - Reading configuration file C:\Users\sschneider\Github\siteSync\sparkplug\hivemq-ce-2023.3\hivemq-ce-2023.3\conf\config.xml
+2023-06-21 18:38:22,345 DEBUG - Adding TCP Listener on bind address 0.0.0.0 and port 1883. Name: tcp-listener-1883.
+2023-06-21 18:38:22,345 DEBUG - Adding Websocket Listener on bind address 0.0.0.0 and port 8000. Name: my-websocket-listener.
+2023-06-21 18:38:22,346 DEBUG - Setting retained messages enabled to true
+2023-06-21 18:38:22,346 DEBUG - Setting wildcard subscriptions enabled to true
+2023-06-21 18:38:22,346 DEBUG - Setting subscription identifier enabled to true
+2023-06-21 18:38:22,347 DEBUG - Setting shared subscriptions enabled to true
+2023-06-21 18:38:22,347 DEBUG - Setting maximum qos to EXACTLY_ONCE 
+2023-06-21 18:38:22,347 DEBUG - Setting topic alias enabled to true
+2023-06-21 18:38:22,347 DEBUG - Setting topic alias maximum per client to 5
+2023-06-21 18:38:22,347 DEBUG - Setting the number of max queued messages  per client to 1000 entries
+2023-06-21 18:38:22,347 DEBUG - Setting queued messages strategy for each client to DISCARD
+2023-06-21 18:38:22,347 DEBUG - Setting the expiry interval for client sessions to 4294967295 seconds
+2023-06-21 18:38:22,348 DEBUG - Setting the expiry interval for publish messages to 4294967296 seconds
+2023-06-21 18:38:22,348 DEBUG - Setting the server receive maximum to 10
+2023-06-21 18:38:22,348 DEBUG - Setting keep alive maximum to 65535 seconds
+2023-06-21 18:38:22,348 DEBUG - Setting keep alive allow zero to true
+2023-06-21 18:38:22,348 DEBUG - Setting the maximum packet size for mqtt messages 268435460 bytes
+2023-06-21 18:38:22,348 DEBUG - Setting global maximum allowed connections to -1
+2023-06-21 18:38:22,349 DEBUG - Setting the maximum client id length to 65535
+2023-06-21 18:38:22,349 DEBUG - Setting the timeout for disconnecting idle tcp connections before a connect message was received to 10000 milliseconds
+2023-06-21 18:38:22,349 DEBUG - Throttling the global incoming traffic limit 0 bytes/second
+2023-06-21 18:38:22,349 DEBUG - Setting the maximum topic length to 65535
+2023-06-21 18:38:22,349 DEBUG - Setting allow server assigned client identifier to true
+2023-06-21 18:38:22,349 DEBUG - Setting validate UTF-8 to true
+2023-06-21 18:38:22,350 DEBUG - Setting payload format validation to false
+2023-06-21 18:38:22,350 DEBUG - Setting allow-problem-information to true
+2023-06-21 18:38:22,350 DEBUG - Setting anonymous usage statistics enabled to true 
+2023-06-21 18:38:22,351 INFO  - This HiveMQ ID is H9El1
+2023-06-21 18:38:22,681 DEBUG - 1.98 GB allocated for qos 0 inflight messages
+2023-06-21 18:38:23,449 DEBUG - Can't open directory channel. Log directory fsync won't be performed.
+2023-06-21 18:38:23,694 DEBUG - Initializing payload reference count and queue sizes for client_queue persistence.
+2023-06-21 18:38:23,927 INFO  - Starting with file persistence mode.
+2023-06-21 18:38:23,972 DEBUG - Diagnostic mode is disabled
+2023-06-21 18:38:24,184 DEBUG - Throttling incoming traffic to 0 B/s
+2023-06-21 18:38:24,184 DEBUG - Throttling outgoing traffic to 0 B/s
+2023-06-21 18:38:24,200 DEBUG - Set extension executor thread pool size to 20
+2023-06-21 18:38:24,201 DEBUG - Set extension executor thread pool keep-alive to 30 seconds
+2023-06-21 18:38:24,224 DEBUG - Building initial topic tree
+2023-06-21 18:38:24,273 DEBUG - Started JMX Metrics Reporting.
+2023-06-21 18:38:24,309 INFO  - Starting HiveMQ extension system.
+2023-06-21 18:38:24,334 DEBUG - Starting extension with id "hivemq-allow-all-extension" at C:\Users\sschneider\Github\siteSync\sparkplug\hivemq-ce-2023.3\hivemq-ce-2023.3\extensions\hivemq-allow-all-extension
+2023-06-21 18:38:24,341 WARN  - 
+################################################################################################################
+# This HiveMQ deployment is not secure! You are lacking Authentication and Authorization.                      #
+# Right now any MQTT client can connect to the broker with a full set of permissions.                          #
+# For production usage, add an appropriate security extension and remove the hivemq-allow-all extension.       #
+# You can download security extensions from the HiveMQ Marketplace (https://www.hivemq.com/extensions/).       #
+################################################################################################################
+2023-06-21 18:38:24,342 DEBUG - Simple authenticator added by extension 'hivemq-allow-all-extension'.
+2023-06-21 18:38:24,343 INFO  - Extension "Allow All Extension" version 1.0.0 started successfully.
+2023-06-21 18:38:24,343 DEBUG - Starting extension with id "sparkplug-tck" at C:\Users\sschneider\Github\siteSync\sparkplug\hivemq-ce-2023.3\hivemq-ce-2023.3\extensions\sparkplug-tck
+2023-06-21 18:38:24,351 INFO  - Extension "Eclipse™ Sparkplug™ TCK" version 3.0.0 started successfully.
+2023-06-21 18:38:24,374 INFO  - Starting TCP listener on address 0.0.0.0 and port 1883
+2023-06-21 18:38:24,904 INFO  - Starting Websocket listener on address 0.0.0.0 and port 8000
+2023-06-21 18:38:24,909 INFO  - Started TCP Listener on address 0.0.0.0 and on port 1883
+2023-06-21 18:38:24,909 INFO  - Started Websocket Listener on address 0.0.0.0 and on port 8000
+2023-06-21 18:38:24,909 INFO  - Started HiveMQ in 2738ms
+2023-06-21 18:38:26,491 DEBUG - Sent anonymous usage statistics
+2023-06-21 18:51:40,661 DEBUG - Client with ID 127.0.0.1 and IP {} disconnected. The client was idle for too long without sending an MQTT control packet
+2023-06-21 18:53:09,854 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-21 18:55:09,851 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-21 18:57:09,858 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-21 19:00:50,647 DEBUG - Client with ID 127.0.0.1 and IP {} disconnected. The client was idle for too long without sending an MQTT control packet
+2023-06-21 19:02:09,866 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-21 19:04:09,858 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-21 19:06:09,860 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-21 19:08:09,869 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-21 19:11:58,665 DEBUG - Client with ID 127.0.0.1 and IP {} disconnected. The client was idle for too long without sending an MQTT control packet
+2023-06-21 19:13:09,886 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-21 19:15:09,882 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-21 19:17:09,865 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-21 19:19:09,855 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-21 19:21:09,865 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-21 19:23:09,867 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-21 19:25:09,868 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-21 19:27:09,869 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-21 19:29:09,845 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-21 19:31:09,859 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-21 19:33:09,859 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-21 19:35:09,849 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-21 19:37:09,867 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-21 19:39:09,861 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-21 19:41:09,863 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-21 19:43:09,877 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-21 19:45:09,858 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-21 19:47:09,843 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-21 19:49:09,855 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-21 19:51:09,844 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-21 19:53:09,862 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-21 19:55:09,849 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-21 19:57:09,849 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-21 19:59:09,850 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-21 20:01:09,873 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-21 20:03:09,851 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-21 20:05:09,879 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-21 20:07:09,883 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-21 20:09:09,863 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-21 20:11:09,851 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-21 20:13:09,873 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-21 20:15:09,863 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-21 20:17:09,868 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-21 20:19:09,849 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-21 20:21:09,855 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-21 20:23:09,859 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-21 20:25:09,858 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-21 20:27:09,852 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-21 20:29:09,851 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-21 20:31:09,856 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-21 20:33:09,843 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-21 20:35:09,869 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-21 20:37:09,863 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-21 20:39:09,844 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-21 20:41:09,851 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-21 20:43:09,830 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-21 20:45:09,859 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-21 20:47:09,853 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-21 20:49:09,867 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-21 20:51:09,875 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-21 20:53:09,840 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-21 20:55:09,853 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-21 20:57:09,845 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-21 20:59:09,878 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-21 21:01:09,870 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-21 21:03:09,862 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-21 21:05:09,842 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-21 21:07:09,842 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-21 21:09:09,837 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-21 21:11:09,846 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-21 21:13:09,837 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-21 21:15:09,854 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-21 21:17:09,855 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-21 21:19:09,869 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-21 21:21:09,869 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-21 21:23:09,873 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-21 21:25:09,855 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-21 21:27:09,863 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-21 21:29:09,863 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-21 21:31:09,853 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-21 21:33:09,852 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-21 21:35:09,855 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-21 21:40:29,642 DEBUG - Client with ID 127.0.0.1 and IP {} disconnected. The client was idle for too long without sending an MQTT control packet
+2023-06-21 21:42:09,843 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-21 21:44:09,850 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-21 21:46:09,853 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-21 21:48:09,836 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-21 21:50:09,838 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-21 21:55:29,643 DEBUG - Client with ID 127.0.0.1 and IP {} disconnected. The client was idle for too long without sending an MQTT control packet
+2023-06-21 22:03:00,635 DEBUG - Client with ID 127.0.0.1 and IP {} disconnected. The client was idle for too long without sending an MQTT control packet
+2023-06-21 22:05:09,835 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-21 22:09:36,646 DEBUG - Client with ID 127.0.0.1 and IP {} disconnected. The client was idle for too long without sending an MQTT control packet
+2023-06-21 22:11:09,843 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-21 22:15:35,644 DEBUG - Client with ID 127.0.0.1 and IP {} disconnected. The client was idle for too long without sending an MQTT control packet
+2023-06-21 22:17:09,846 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-21 22:19:09,846 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-21 22:24:57,643 DEBUG - Client with ID 127.0.0.1 and IP {} disconnected. The client was idle for too long without sending an MQTT control packet
+2023-06-21 22:28:34,643 DEBUG - Client with ID 127.0.0.1 and IP {} disconnected. The client was idle for too long without sending an MQTT control packet
+2023-06-21 22:30:09,850 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-21 22:40:41,634 DEBUG - Client with ID 127.0.0.1 and IP {} disconnected. The client was idle for too long without sending an MQTT control packet
+2023-06-21 22:45:20,637 DEBUG - Client with ID 127.0.0.1 and IP {} disconnected. The client was idle for too long without sending an MQTT control packet
+2023-06-21 22:50:29,642 DEBUG - Client with ID 127.0.0.1 and IP {} disconnected. The client was idle for too long without sending an MQTT control packet
+2023-06-21 22:52:09,840 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-21 22:54:09,862 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-21 22:56:09,851 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-21 22:58:09,841 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-21 23:10:54,133 DEBUG - A client (IP: 127.0.0.1) sent other message before CONNECT. Disconnecting client.
+2023-06-21 23:10:58,460 DEBUG - A client (IP: 127.0.0.1) sent other message before CONNECT. Disconnecting client.
+2023-06-21 23:11:02,794 DEBUG - A client (IP: 127.0.0.1) sent other message before CONNECT. Disconnecting client.
+2023-06-21 23:11:07,117 DEBUG - A client (IP: 127.0.0.1) sent other message before CONNECT. Disconnecting client.
+2023-06-21 23:11:11,436 DEBUG - A client (IP: 127.0.0.1) sent other message before CONNECT. Disconnecting client.
+2023-06-21 23:11:15,754 DEBUG - A client (IP: 127.0.0.1) sent other message before CONNECT. Disconnecting client.
+2023-06-21 23:11:20,079 DEBUG - A client (IP: 127.0.0.1) sent other message before CONNECT. Disconnecting client.
+2023-06-21 23:11:24,415 DEBUG - A client (IP: 127.0.0.1) sent other message before CONNECT. Disconnecting client.
+2023-06-21 23:11:28,734 DEBUG - A client (IP: 127.0.0.1) sent other message before CONNECT. Disconnecting client.
+2023-06-21 23:11:33,072 DEBUG - A client (IP: 127.0.0.1) sent other message before CONNECT. Disconnecting client.
+2023-06-21 23:11:37,401 DEBUG - A client (IP: 127.0.0.1) sent other message before CONNECT. Disconnecting client.
+2023-06-21 23:11:41,719 DEBUG - A client (IP: 127.0.0.1) sent other message before CONNECT. Disconnecting client.
+2023-06-21 23:11:46,036 DEBUG - A client (IP: 127.0.0.1) sent other message before CONNECT. Disconnecting client.
+2023-06-21 23:11:50,358 DEBUG - A client (IP: 127.0.0.1) sent other message before CONNECT. Disconnecting client.
+2023-06-21 23:11:54,680 DEBUG - A client (IP: 127.0.0.1) sent other message before CONNECT. Disconnecting client.
+2023-06-21 23:11:59,025 DEBUG - A client (IP: 127.0.0.1) sent other message before CONNECT. Disconnecting client.
+2023-06-21 23:12:03,359 DEBUG - A client (IP: 127.0.0.1) sent other message before CONNECT. Disconnecting client.
+2023-06-21 23:12:07,698 DEBUG - A client (IP: 127.0.0.1) sent other message before CONNECT. Disconnecting client.
+2023-06-21 23:12:12,031 DEBUG - A client (IP: 127.0.0.1) sent other message before CONNECT. Disconnecting client.
+2023-06-21 23:12:16,412 DEBUG - A client (IP: 127.0.0.1) sent other message before CONNECT. Disconnecting client.
+2023-06-21 23:12:20,797 DEBUG - A client (IP: 127.0.0.1) sent other message before CONNECT. Disconnecting client.
+2023-06-21 23:12:25,206 DEBUG - A client (IP: 127.0.0.1) sent other message before CONNECT. Disconnecting client.
+2023-06-21 23:12:29,658 DEBUG - A client (IP: 127.0.0.1) sent other message before CONNECT. Disconnecting client.
+2023-06-21 23:12:34,088 DEBUG - A client (IP: 127.0.0.1) sent other message before CONNECT. Disconnecting client.
+2023-06-21 23:12:38,487 DEBUG - A client (IP: 127.0.0.1) sent other message before CONNECT. Disconnecting client.
+2023-06-21 23:12:42,977 DEBUG - A client (IP: 127.0.0.1) sent other message before CONNECT. Disconnecting client.
+2023-06-21 23:12:47,817 DEBUG - A client (IP: 127.0.0.1) sent other message before CONNECT. Disconnecting client.
+2023-06-21 23:12:52,666 DEBUG - A client (IP: 127.0.0.1) sent other message before CONNECT. Disconnecting client.
+2023-06-21 23:12:59,669 DEBUG - A client (IP: 127.0.0.1) sent other message before CONNECT. Disconnecting client.
+2023-06-21 23:13:05,941 DEBUG - A client (IP: 127.0.0.1) sent other message before CONNECT. Disconnecting client.
+2023-06-21 23:13:11,843 DEBUG - A client (IP: 127.0.0.1) sent other message before CONNECT. Disconnecting client.
+2023-06-21 23:13:18,163 DEBUG - A client (IP: 127.0.0.1) sent other message before CONNECT. Disconnecting client.
+2023-06-21 23:13:26,403 DEBUG - A client (IP: 127.0.0.1) sent other message before CONNECT. Disconnecting client.
+2023-06-21 23:13:32,542 DEBUG - A client (IP: 127.0.0.1) sent other message before CONNECT. Disconnecting client.
+2023-06-21 23:13:42,521 DEBUG - A client (IP: 127.0.0.1) sent other message before CONNECT. Disconnecting client.
+2023-06-21 23:13:48,839 DEBUG - A client (IP: 127.0.0.1) sent other message before CONNECT. Disconnecting client.
+2023-06-21 23:13:56,219 DEBUG - A client (IP: 127.0.0.1) sent other message before CONNECT. Disconnecting client.
+2023-06-21 23:14:00,539 DEBUG - A client (IP: 127.0.0.1) sent other message before CONNECT. Disconnecting client.
+2023-06-21 23:14:04,865 DEBUG - A client (IP: 127.0.0.1) sent other message before CONNECT. Disconnecting client.
+2023-06-21 23:14:09,185 DEBUG - A client (IP: 127.0.0.1) sent other message before CONNECT. Disconnecting client.
+2023-06-21 23:14:13,515 DEBUG - A client (IP: 127.0.0.1) sent other message before CONNECT. Disconnecting client.
+2023-06-21 23:14:17,848 DEBUG - A client (IP: 127.0.0.1) sent other message before CONNECT. Disconnecting client.
+2023-06-21 23:14:22,180 DEBUG - A client (IP: 127.0.0.1) sent other message before CONNECT. Disconnecting client.
+2023-06-21 23:14:26,502 DEBUG - A client (IP: 127.0.0.1) sent other message before CONNECT. Disconnecting client.
+2023-06-21 23:14:30,831 DEBUG - A client (IP: 127.0.0.1) sent other message before CONNECT. Disconnecting client.
+2023-06-21 23:14:35,159 DEBUG - A client (IP: 127.0.0.1) sent other message before CONNECT. Disconnecting client.
+2023-06-21 23:14:39,484 DEBUG - A client (IP: 127.0.0.1) sent other message before CONNECT. Disconnecting client.
+2023-06-21 23:14:43,810 DEBUG - A client (IP: 127.0.0.1) sent other message before CONNECT. Disconnecting client.
+2023-06-21 23:14:48,133 DEBUG - A client (IP: 127.0.0.1) sent other message before CONNECT. Disconnecting client.
+2023-06-21 23:14:52,459 DEBUG - A client (IP: 127.0.0.1) sent other message before CONNECT. Disconnecting client.
+2023-06-21 23:14:57,880 DEBUG - A client (IP: 127.0.0.1) sent other message before CONNECT. Disconnecting client.
+2023-06-21 23:15:02,208 DEBUG - A client (IP: 127.0.0.1) sent other message before CONNECT. Disconnecting client.
+2023-06-21 23:15:06,539 DEBUG - A client (IP: 127.0.0.1) sent other message before CONNECT. Disconnecting client.
+2023-06-21 23:15:10,873 DEBUG - A client (IP: 127.0.0.1) sent other message before CONNECT. Disconnecting client.
+2023-06-21 23:15:15,211 DEBUG - A client (IP: 127.0.0.1) sent other message before CONNECT. Disconnecting client.
+2023-06-21 23:15:19,533 DEBUG - A client (IP: 127.0.0.1) sent other message before CONNECT. Disconnecting client.
+2023-06-21 23:15:24,891 DEBUG - A client (IP: 127.0.0.1) sent other message before CONNECT. Disconnecting client.
+2023-06-21 23:15:29,914 DEBUG - A client (IP: 127.0.0.1) sent other message before CONNECT. Disconnecting client.
+2023-06-21 23:15:34,318 DEBUG - A client (IP: 127.0.0.1) sent other message before CONNECT. Disconnecting client.
+2023-06-21 23:15:38,928 DEBUG - A client (IP: 127.0.0.1) sent other message before CONNECT. Disconnecting client.
+2023-06-21 23:15:43,936 DEBUG - A client (IP: 127.0.0.1) sent other message before CONNECT. Disconnecting client.
+2023-06-21 23:15:49,083 DEBUG - A client (IP: 127.0.0.1) sent other message before CONNECT. Disconnecting client.
+2023-06-21 23:15:53,936 DEBUG - A client (IP: 127.0.0.1) sent other message before CONNECT. Disconnecting client.
+2023-06-21 23:15:59,005 DEBUG - A client (IP: 127.0.0.1) sent other message before CONNECT. Disconnecting client.
+2023-06-21 23:16:04,412 DEBUG - A client (IP: 127.0.0.1) sent other message before CONNECT. Disconnecting client.
+2023-06-21 23:16:09,123 DEBUG - A client (IP: 127.0.0.1) sent other message before CONNECT. Disconnecting client.
+2023-06-21 23:16:14,148 DEBUG - A client (IP: 127.0.0.1) sent other message before CONNECT. Disconnecting client.
+2023-06-21 23:16:19,625 DEBUG - A client (IP: 127.0.0.1) sent other message before CONNECT. Disconnecting client.
+2023-06-21 23:16:25,897 DEBUG - A client (IP: 127.0.0.1) sent other message before CONNECT. Disconnecting client.
+2023-06-21 23:16:35,401 DEBUG - A client (IP: 127.0.0.1) sent other message before CONNECT. Disconnecting client.
+2023-06-21 23:16:41,145 DEBUG - A client (IP: 127.0.0.1) sent other message before CONNECT. Disconnecting client.
+2023-06-21 23:16:50,365 DEBUG - A client (IP: 127.0.0.1) sent other message before CONNECT. Disconnecting client.
+2023-06-21 23:16:58,342 DEBUG - A client (IP: 127.0.0.1) sent other message before CONNECT. Disconnecting client.
+2023-06-21 23:17:04,213 DEBUG - A client (IP: 127.0.0.1) sent other message before CONNECT. Disconnecting client.
+2023-06-21 23:17:10,663 DEBUG - A client (IP: 127.0.0.1) sent other message before CONNECT. Disconnecting client.
+2023-06-21 23:17:18,644 DEBUG - A client (IP: 127.0.0.1) sent other message before CONNECT. Disconnecting client.
+2023-06-21 23:17:28,219 DEBUG - A client (IP: 127.0.0.1) sent other message before CONNECT. Disconnecting client.
+2023-06-21 23:17:35,698 DEBUG - A client (IP: 127.0.0.1) sent other message before CONNECT. Disconnecting client.
+2023-06-21 23:17:44,867 DEBUG - A client (IP: 127.0.0.1) sent other message before CONNECT. Disconnecting client.
+2023-06-21 23:17:53,918 DEBUG - A client (IP: 127.0.0.1) sent other message before CONNECT. Disconnecting client.
+2023-06-21 23:18:01,564 DEBUG - A client (IP: 127.0.0.1) sent other message before CONNECT. Disconnecting client.
+2023-06-21 23:18:11,725 DEBUG - A client (IP: 127.0.0.1) sent other message before CONNECT. Disconnecting client.
+2023-06-21 23:18:21,683 DEBUG - A client (IP: 127.0.0.1) sent other message before CONNECT. Disconnecting client.
+2023-06-21 23:18:45,644 DEBUG - Client with ID 127.0.0.1 and IP {} disconnected. The client was idle for too long without sending an MQTT control packet
+2023-06-21 23:19:06,931 DEBUG - A client (IP: 127.0.0.1) sent other message before CONNECT. Disconnecting client.
+2023-06-21 23:19:17,139 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-21 23:20:59,843 DEBUG - A client (IP: 127.0.0.1) sent other message before CONNECT. Disconnecting client.
+2023-06-21 23:21:09,847 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-21 23:22:59,845 DEBUG - A client (IP: 127.0.0.1) sent other message before CONNECT. Disconnecting client.
+2023-06-21 23:23:09,852 DEBUG - Client with IP 127.0.0.1 disconnected. The client was idle for too long without sending a MQTT CONNECT packet.
+2023-06-21 23:24:44,830 DEBUG - A client (IP: 127.0.0.1) sent other message before CONNECT. Disconnecting client.
+2023-06-21 23:24:59,841 DEBUG - A client (IP: 127.0.0.1) sent other message before CONNECT. Disconnecting client.
+2023-06-21 23:26:59,832 DEBUG - A client (IP: 127.0.0.1) sent other message before CONNECT. Disconnecting client.
+2023-06-21 23:28:34,837 DEBUG - A client (IP: 127.0.0.1) sent other message before CONNECT. Disconnecting client.
+2023-06-21 23:28:59,842 DEBUG - A client (IP: 127.0.0.1) sent other message before CONNECT. Disconnecting client.
+2023-06-21 23:29:59,853 DEBUG - A client (IP: 127.0.0.1) sent other message before CONNECT. Disconnecting client.
+2023-06-21 23:30:15,839 DEBUG - A client (IP: 127.0.0.1) sent other message before CONNECT. Disconnecting client.
+2023-06-21 23:30:22,921 DEBUG - A client (IP: 127.0.0.1) sent other message before CONNECT. Disconnecting client.
+2023-06-21 23:30:27,241 DEBUG - A client (IP: 127.0.0.1) sent other message before CONNECT. Disconnecting client.
+2023-06-21 23:30:31,555 DEBUG - A client (IP: 127.0.0.1) sent other message before CONNECT. Disconnecting client.
+2023-06-21 23:30:35,873 DEBUG - A client (IP: 127.0.0.1) sent other message before CONNECT. Disconnecting client.
+2023-06-21 23:30:40,189 DEBUG - A client (IP: 127.0.0.1) sent other message before CONNECT. Disconnecting client.
+2023-06-21 23:30:44,521 DEBUG - A client (IP: 127.0.0.1) sent other message before CONNECT. Disconnecting client.
+2023-06-21 23:30:48,855 DEBUG - A client (IP: 127.0.0.1) sent other message before CONNECT. Disconnecting client.
+2023-06-21 23:30:53,201 DEBUG - A client (IP: 127.0.0.1) sent other message before CONNECT. Disconnecting client.
+2023-06-21 23:30:57,566 DEBUG - A client (IP: 127.0.0.1) sent other message before CONNECT. Disconnecting client.
+2023-06-21 23:31:01,957 DEBUG - A client (IP: 127.0.0.1) sent other message before CONNECT. Disconnecting client.
+2023-06-21 23:31:06,457 DEBUG - A client (IP: 127.0.0.1) sent other message before CONNECT. Disconnecting client.
+2023-06-21 23:31:11,196 DEBUG - A client (IP: 127.0.0.1) sent other message before CONNECT. Disconnecting client.
+2023-06-21 23:31:15,890 DEBUG - A client (IP: 127.0.0.1) sent other message before CONNECT. Disconnecting client.
+2023-06-21 23:31:21,558 DEBUG - A client (IP: 127.0.0.1) sent other message before CONNECT. Disconnecting client.
+2023-06-21 23:31:29,693 DEBUG - A client (IP: 127.0.0.1) sent other message before CONNECT. Disconnecting client.
+2023-06-21 23:49:54,441 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:49:54,442 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:49:54,489 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:49:54,513 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:49:54,517 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:49:54,518 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:49:54,547 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:49:54,548 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:49:54,558 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:49:54,566 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:49:54,581 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:49:54,594 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:49:54,601 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:49:54,614 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:49:54,614 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:49:54,621 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:49:54,629 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:49:54,651 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:49:54,653 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:49:54,659 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:49:54,691 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:49:54,699 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:49:54,701 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:49:54,709 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:49:54,727 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:49:54,729 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:49:54,742 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:49:54,750 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:49:54,765 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:49:54,773 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:49:54,775 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:49:54,781 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:49:54,783 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:49:54,785 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:49:54,795 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:49:54,796 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:49:54,798 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:49:54,801 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:49:54,810 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:49:54,812 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:49:54,814 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:49:54,818 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:49:54,819 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:49:54,829 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:49:54,830 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:49:54,833 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:49:54,834 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:49:54,842 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:49:54,846 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:49:54,852 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:49:54,857 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:49:54,861 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:49:54,863 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:49:54,864 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:49:54,872 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:49:54,873 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:49:54,874 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:49:54,875 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:49:54,877 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:49:54,881 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:49:54,884 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:49:54,885 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:49:54,890 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:49:54,894 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:49:54,895 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:49:54,896 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:49:54,906 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:49:54,911 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:49:54,913 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:49:54,922 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:49:54,923 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:49:54,924 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:49:54,925 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:49:54,931 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:49:54,933 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:49:54,936 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:49:54,938 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:49:54,943 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:49:54,944 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:49:54,945 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:49:54,946 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:49:54,956 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:49:54,958 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:49:54,959 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:49:54,964 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:49:54,966 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:49:54,966 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:49:54,975 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:49:54,977 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:49:54,977 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:49:54,981 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:49:54,987 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:49:54,988 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:49:54,989 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:49:54,990 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:49:54,992 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:49:54,996 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:49:54,996 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:49:54,997 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:49:54,998 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:49:55,001 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:49:55,007 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:49:55,009 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:49:55,009 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:49:55,014 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:49:55,018 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:49:55,019 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:49:55,020 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:49:55,023 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:49:55,027 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:49:55,030 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:49:55,032 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:51:38,409 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:51:38,412 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:51:38,414 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:51:38,424 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:51:38,434 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:51:38,436 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:51:38,438 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:51:38,438 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:51:38,442 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:51:38,459 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:51:38,461 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:51:38,465 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:51:38,466 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:51:38,476 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:51:38,477 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:51:38,485 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:51:38,485 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:51:38,491 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:51:38,495 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:51:38,495 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:51:38,497 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:51:38,499 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:51:38,501 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:51:38,509 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:51:38,510 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:51:38,512 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:51:38,513 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:51:38,516 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:51:38,525 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:51:38,527 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:57:40,204 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:57:40,207 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:57:40,223 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:57:40,229 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:57:40,231 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id
+2023-06-21 23:57:40,233 DEBUG - Disconnecting already connected client with id 127.0.0.1 and ip {} because another client connects with that id

@@ -1,0 +1,108 @@
+2023/07/09-13:12:23.153047 1afc RocksDB version: 7.4.5
+2023/07/09-13:12:23.153123 1afc Git sha e072c129d57a0883370034cecf6774c745c40f76
+2023/07/09-13:12:23.153148 1afc Compile date 2022-08-15 17:16:22
+2023/07/09-13:12:23.153166 1afc DB SUMMARY
+2023/07/09-13:12:23.153183 1afc DB Session ID:  YN1D7O5BTZ1MG9CCCWOE
+2023/07/09-13:12:23.168407 1afc CURRENT file:  CURRENT
+2023/07/09-13:12:23.168439 1afc IDENTITY file:  IDENTITY
+2023/07/09-13:12:23.168575 1afc MANIFEST file:  MANIFEST-000050 size: 218 Bytes
+2023/07/09-13:12:23.168594 1afc SST files in C:\Users\sschneider\Github\siteSync\sparkplug\hivemq-ce-2023.3\hivemq-ce-2023.3\data\persistence\retained_messages\040500_R\retained_messages_18 dir, Total Num: 1, files: 000048.sst 
+2023/07/09-13:12:23.168608 1afc Write Ahead Log file in C:\Users\sschneider\Github\siteSync\sparkplug\hivemq-ce-2023.3\hivemq-ce-2023.3\data\persistence\retained_messages\040500_R\retained_messages_18: 000049.log size: 4845 ; 
+2023/07/09-13:12:23.168701 1afc                         Options.error_if_exists: 0
+2023/07/09-13:12:23.168717 1afc                       Options.create_if_missing: 1
+2023/07/09-13:12:23.168724 1afc                         Options.paranoid_checks: 1
+2023/07/09-13:12:23.168731 1afc             Options.flush_verify_memtable_count: 1
+2023/07/09-13:12:23.168740 1afc                               Options.track_and_verify_wals_in_manifest: 0
+2023/07/09-13:12:23.168746 1afc        Options.verify_sst_unique_id_in_manifest: 0
+2023/07/09-13:12:23.168753 1afc                                     Options.env: 0000029395D9B850
+2023/07/09-13:12:23.168761 1afc                                      Options.fs: WinFS
+2023/07/09-13:12:23.168770 1afc                                Options.info_log: 000002939787A3B0
+2023/07/09-13:12:23.168783 1afc                Options.max_file_opening_threads: 16
+2023/07/09-13:12:23.168790 1afc                              Options.statistics: 00000293961BC8A0
+2023/07/09-13:12:23.168797 1afc                               Options.use_fsync: 0
+2023/07/09-13:12:23.168803 1afc                       Options.max_log_file_size: 512000
+2023/07/09-13:12:23.168810 1afc                  Options.max_manifest_file_size: 1073741824
+2023/07/09-13:12:23.168816 1afc                   Options.log_file_time_to_roll: 0
+2023/07/09-13:12:23.168822 1afc                       Options.keep_log_file_num: 2
+2023/07/09-13:12:23.168829 1afc                    Options.recycle_log_file_num: 0
+2023/07/09-13:12:23.168835 1afc                         Options.allow_fallocate: 1
+2023/07/09-13:12:23.168842 1afc                        Options.allow_mmap_reads: 0
+2023/07/09-13:12:23.168848 1afc                       Options.allow_mmap_writes: 0
+2023/07/09-13:12:23.168856 1afc                        Options.use_direct_reads: 0
+2023/07/09-13:12:23.168863 1afc                        Options.use_direct_io_for_flush_and_compaction: 0
+2023/07/09-13:12:23.168869 1afc          Options.create_missing_column_families: 0
+2023/07/09-13:12:23.168876 1afc                              Options.db_log_dir: 
+2023/07/09-13:12:23.168884 1afc                                 Options.wal_dir: 
+2023/07/09-13:12:23.168890 1afc                Options.table_cache_numshardbits: 6
+2023/07/09-13:12:23.168897 1afc                         Options.WAL_ttl_seconds: 0
+2023/07/09-13:12:23.168903 1afc                       Options.WAL_size_limit_MB: 0
+2023/07/09-13:12:23.168910 1afc                        Options.max_write_batch_group_size_bytes: 1048576
+2023/07/09-13:12:23.168916 1afc             Options.manifest_preallocation_size: 4194304
+2023/07/09-13:12:23.168923 1afc                     Options.is_fd_close_on_exec: 1
+2023/07/09-13:12:23.168929 1afc                   Options.advise_random_on_open: 1
+2023/07/09-13:12:23.168936 1afc                   Options.experimental_mempurge_threshold: 0.000000
+2023/07/09-13:12:23.168943 1afc                    Options.db_write_buffer_size: 0
+2023/07/09-13:12:23.168949 1afc                    Options.write_buffer_manager: 0000029397869C30
+2023/07/09-13:12:23.168956 1afc         Options.access_hint_on_compaction_start: 1
+2023/07/09-13:12:23.168988 1afc           Options.random_access_max_buffer_size: 1048576
+2023/07/09-13:12:23.168998 1afc                      Options.use_adaptive_mutex: 0
+2023/07/09-13:12:23.169005 1afc                            Options.rate_limiter: 0000000000000000
+2023/07/09-13:12:23.169013 1afc     Options.sst_file_manager.rate_bytes_per_sec: 0
+2023/07/09-13:12:23.169020 1afc                       Options.wal_recovery_mode: 2
+2023/07/09-13:12:23.169027 1afc                  Options.enable_thread_tracking: 0
+2023/07/09-13:12:23.169034 1afc                  Options.enable_pipelined_write: 0
+2023/07/09-13:12:23.169040 1afc                  Options.unordered_write: 0
+2023/07/09-13:12:23.169048 1afc         Options.allow_concurrent_memtable_write: 1
+2023/07/09-13:12:23.169054 1afc      Options.enable_write_thread_adaptive_yield: 1
+2023/07/09-13:12:23.169061 1afc             Options.write_thread_max_yield_usec: 100
+2023/07/09-13:12:23.169068 1afc            Options.write_thread_slow_yield_usec: 3
+2023/07/09-13:12:23.169076 1afc                               Options.row_cache: None
+2023/07/09-13:12:23.169084 1afc                              Options.wal_filter: None
+2023/07/09-13:12:23.169091 1afc             Options.avoid_flush_during_recovery: 0
+2023/07/09-13:12:23.169098 1afc             Options.allow_ingest_behind: 0
+2023/07/09-13:12:23.169105 1afc             Options.two_write_queues: 0
+2023/07/09-13:12:23.169112 1afc             Options.manual_wal_flush: 0
+2023/07/09-13:12:23.169118 1afc             Options.wal_compression: 0
+2023/07/09-13:12:23.169124 1afc             Options.atomic_flush: 0
+2023/07/09-13:12:23.169130 1afc             Options.avoid_unnecessary_blocking_io: 0
+2023/07/09-13:12:23.169137 1afc                 Options.persist_stats_to_disk: 0
+2023/07/09-13:12:23.169147 1afc                 Options.write_dbid_to_manifest: 0
+2023/07/09-13:12:23.169153 1afc                 Options.log_readahead_size: 0
+2023/07/09-13:12:23.169160 1afc                 Options.file_checksum_gen_factory: Unknown
+2023/07/09-13:12:23.169166 1afc                 Options.best_efforts_recovery: 0
+2023/07/09-13:12:23.169172 1afc                Options.max_bgerror_resume_count: 2147483647
+2023/07/09-13:12:23.169179 1afc            Options.bgerror_resume_retry_interval: 1000000
+2023/07/09-13:12:23.169186 1afc             Options.allow_data_in_errors: 0
+2023/07/09-13:12:23.169192 1afc             Options.db_host_id: __hostname__
+2023/07/09-13:12:23.169199 1afc             Options.enforce_single_del_contracts: true
+2023/07/09-13:12:23.169206 1afc             Options.max_background_jobs: 2
+2023/07/09-13:12:23.169212 1afc             Options.max_background_compactions: -1
+2023/07/09-13:12:23.169219 1afc             Options.max_subcompactions: 1
+2023/07/09-13:12:23.169225 1afc             Options.avoid_flush_during_shutdown: 0
+2023/07/09-13:12:23.169232 1afc           Options.writable_file_max_buffer_size: 1048576
+2023/07/09-13:12:23.169238 1afc             Options.delayed_write_rate : 16777216
+2023/07/09-13:12:23.169245 1afc             Options.max_total_wal_size: 0
+2023/07/09-13:12:23.169252 1afc             Options.delete_obsolete_files_period_micros: 21600000000
+2023/07/09-13:12:23.169258 1afc                   Options.stats_dump_period_sec: 0
+2023/07/09-13:12:23.169265 1afc                 Options.stats_persist_period_sec: 0
+2023/07/09-13:12:23.169272 1afc                 Options.stats_history_buffer_size: 65536
+2023/07/09-13:12:23.169279 1afc                          Options.max_open_files: -1
+2023/07/09-13:12:23.169286 1afc                          Options.bytes_per_sync: 0
+2023/07/09-13:12:23.169294 1afc                      Options.wal_bytes_per_sync: 0
+2023/07/09-13:12:23.169301 1afc                   Options.strict_bytes_per_sync: 0
+2023/07/09-13:12:23.169310 1afc       Options.compaction_readahead_size: 0
+2023/07/09-13:12:23.169317 1afc                  Options.max_background_flushes: -1
+2023/07/09-13:12:23.169324 1afc Compression algorithms supported:
+2023/07/09-13:12:23.169331 1afc 	kZSTD supported: 1
+2023/07/09-13:12:23.169339 1afc 	kSnappyCompression supported: 1
+2023/07/09-13:12:23.169363 1afc 	kBZip2Compression supported: 0
+2023/07/09-13:12:23.169371 1afc 	kZlibCompression supported: 1
+2023/07/09-13:12:23.169378 1afc 	kLZ4Compression supported: 1
+2023/07/09-13:12:23.169384 1afc 	kXpressCompression supported: 0
+2023/07/09-13:12:23.169391 1afc 	kLZ4HCCompression supported: 1
+2023/07/09-13:12:23.169397 1afc 	kZSTDNotFinalCompression supported: 1
+2023/07/09-13:12:23.169404 1afc Fast CRC32 supported: Not supported on x86
+2023/07/09-13:12:23.169410 1afc DMutex implementation: std::mutex
+2023/07/09-13:12:23.175199 1afc [WARN] [db\db_impl\db_impl_open.cc:2055] DB::Open() failed: Corruption: CURRENT file corrupted
+2023/07/09-13:12:23.175217 1afc [db\db_impl\db_impl.cc:480] Shutdown: canceling all background work
+2023/07/09-13:12:23.175274 1afc [db\db_impl\db_impl.cc:710] Shutdown complete

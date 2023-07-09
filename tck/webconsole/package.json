@@ -22,7 +22,8 @@
     "nuxt-clipboard2": "^0.2.1",
     "paho-mqtt": "^1.1.0",
     "uuid": "^8.3.2",
-    "vue-clipboard2": "^0.3.1"
+    "vue-clipboard2": "^0.3.1",
+    "yarn": "^1.22.19"
   },
   "packageManager": "yarn@3.0.1"
 }

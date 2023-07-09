@@ -1,0 +1,13 @@
+2023-06-27 08:12:41,305 DEBUG - Client with ID 127.0.0.1 and IP {} disconnected. The client was idle for too long without sending an MQTT control packet
+2023-06-27 08:12:41,305 DEBUG - Client with ID 127.0.0.1 and IP {} disconnected. The client was idle for too long without sending an MQTT control packet
+2023-06-27 08:12:41,304 DEBUG - Client with ID 127.0.0.1 and IP {} disconnected. The client was idle for too long without sending an MQTT control packet
+2023-06-27 09:20:29,180 DEBUG - Client with ID 127.0.0.1 and IP {} disconnected. The client was idle for too long without sending an MQTT control packet
+2023-06-27 11:43:55,302 DEBUG - Client with ID 127.0.0.1 and IP {} disconnected. The client was idle for too long without sending an MQTT control packet
+2023-06-27 11:54:11,171 DEBUG - Client with ID 127.0.0.1 and IP {} disconnected. The client was idle for too long without sending an MQTT control packet
+2023-06-27 12:13:10,402 DEBUG - Client with ID 127.0.0.1 and IP {} disconnected. The client was idle for too long without sending an MQTT control packet
+2023-06-27 12:42:38,245 DEBUG - Client with ID 127.0.0.1 and IP {} disconnected. The client was idle for too long without sending an MQTT control packet
+2023-06-27 12:50:54,902 DEBUG - Client with ID 127.0.0.1 and IP {} disconnected. The client was idle for too long without sending an MQTT control packet
+2023-06-27 14:01:10,561 DEBUG - Client with ID 127.0.0.1 and IP {} disconnected. The client was idle for too long without sending an MQTT control packet
+2023-06-27 14:14:39,637 DEBUG - Client with ID 127.0.0.1 and IP {} disconnected. The client was idle for too long without sending an MQTT control packet
+2023-06-27 16:16:43,203 DEBUG - Client with ID 127.0.0.1 and IP {} disconnected. The client was idle for too long without sending an MQTT control packet
+2023-06-27 16:52:56,182 DEBUG - Client with ID 127.0.0.1 and IP {} disconnected. The client was idle for too long without sending an MQTT control packet

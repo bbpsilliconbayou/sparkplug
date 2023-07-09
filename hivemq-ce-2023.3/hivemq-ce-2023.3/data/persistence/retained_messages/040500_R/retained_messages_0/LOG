@@ -1,0 +1,108 @@
+2023/07/09-13:29:41.044498 5b10 RocksDB version: 7.4.5
+2023/07/09-13:29:41.044578 5b10 Git sha e072c129d57a0883370034cecf6774c745c40f76
+2023/07/09-13:29:41.044600 5b10 Compile date 2022-08-15 17:16:22
+2023/07/09-13:29:41.044613 5b10 DB SUMMARY
+2023/07/09-13:29:41.044625 5b10 DB Session ID:  B39RAD6MD26O8CZNPG8L
+2023/07/09-13:29:41.083224 5b10 CURRENT file:  CURRENT
+2023/07/09-13:29:41.083253 5b10 IDENTITY file:  IDENTITY
+2023/07/09-13:29:41.089477 5b10 MANIFEST file:  MANIFEST-000050 size: 218 Bytes
+2023/07/09-13:29:41.089518 5b10 SST files in C:\Users\sschneider\Github\siteSync\sparkplug\hivemq-ce-2023.3\hivemq-ce-2023.3\data\persistence\retained_messages\040500_R\retained_messages_0 dir, Total Num: 1, files: 000048.sst 
+2023/07/09-13:29:41.089543 5b10 Write Ahead Log file in C:\Users\sschneider\Github\siteSync\sparkplug\hivemq-ce-2023.3\hivemq-ce-2023.3\data\persistence\retained_messages\040500_R\retained_messages_0: 000049.log size: 4845 ; 
+2023/07/09-13:29:41.089669 5b10                         Options.error_if_exists: 0
+2023/07/09-13:29:41.089681 5b10                       Options.create_if_missing: 1
+2023/07/09-13:29:41.089694 5b10                         Options.paranoid_checks: 1
+2023/07/09-13:29:41.089705 5b10             Options.flush_verify_memtable_count: 1
+2023/07/09-13:29:41.089718 5b10                               Options.track_and_verify_wals_in_manifest: 0
+2023/07/09-13:29:41.089729 5b10        Options.verify_sst_unique_id_in_manifest: 0
+2023/07/09-13:29:41.089740 5b10                                     Options.env: 000002596DCCE060
+2023/07/09-13:29:41.089752 5b10                                      Options.fs: WinFS
+2023/07/09-13:29:41.089763 5b10                                Options.info_log: 000002596F7F80B0
+2023/07/09-13:29:41.089775 5b10                Options.max_file_opening_threads: 16
+2023/07/09-13:29:41.089787 5b10                              Options.statistics: 000002596F276780
+2023/07/09-13:29:41.089798 5b10                               Options.use_fsync: 0
+2023/07/09-13:29:41.089809 5b10                       Options.max_log_file_size: 512000
+2023/07/09-13:29:41.089822 5b10                  Options.max_manifest_file_size: 1073741824
+2023/07/09-13:29:41.089834 5b10                   Options.log_file_time_to_roll: 0
+2023/07/09-13:29:41.089846 5b10                       Options.keep_log_file_num: 2
+2023/07/09-13:29:41.089858 5b10                    Options.recycle_log_file_num: 0
+2023/07/09-13:29:41.089872 5b10                         Options.allow_fallocate: 1
+2023/07/09-13:29:41.089882 5b10                        Options.allow_mmap_reads: 0
+2023/07/09-13:29:41.089894 5b10                       Options.allow_mmap_writes: 0
+2023/07/09-13:29:41.089904 5b10                        Options.use_direct_reads: 0
+2023/07/09-13:29:41.089915 5b10                        Options.use_direct_io_for_flush_and_compaction: 0
+2023/07/09-13:29:41.089926 5b10          Options.create_missing_column_families: 0
+2023/07/09-13:29:41.089937 5b10                              Options.db_log_dir: 
+2023/07/09-13:29:41.089948 5b10                                 Options.wal_dir: 
+2023/07/09-13:29:41.089958 5b10                Options.table_cache_numshardbits: 6
+2023/07/09-13:29:41.089970 5b10                         Options.WAL_ttl_seconds: 0
+2023/07/09-13:29:41.089980 5b10                       Options.WAL_size_limit_MB: 0
+2023/07/09-13:29:41.089991 5b10                        Options.max_write_batch_group_size_bytes: 1048576
+2023/07/09-13:29:41.090001 5b10             Options.manifest_preallocation_size: 4194304
+2023/07/09-13:29:41.090011 5b10                     Options.is_fd_close_on_exec: 1
+2023/07/09-13:29:41.090021 5b10                   Options.advise_random_on_open: 1
+2023/07/09-13:29:41.090032 5b10                   Options.experimental_mempurge_threshold: 0.000000
+2023/07/09-13:29:41.090043 5b10                    Options.db_write_buffer_size: 0
+2023/07/09-13:29:41.090053 5b10                    Options.write_buffer_manager: 000002596F57F8B0
+2023/07/09-13:29:41.090064 5b10         Options.access_hint_on_compaction_start: 1
+2023/07/09-13:29:41.090097 5b10           Options.random_access_max_buffer_size: 1048576
+2023/07/09-13:29:41.090110 5b10                      Options.use_adaptive_mutex: 0
+2023/07/09-13:29:41.090121 5b10                            Options.rate_limiter: 0000000000000000
+2023/07/09-13:29:41.090132 5b10     Options.sst_file_manager.rate_bytes_per_sec: 0
+2023/07/09-13:29:41.090143 5b10                       Options.wal_recovery_mode: 2
+2023/07/09-13:29:41.090155 5b10                  Options.enable_thread_tracking: 0
+2023/07/09-13:29:41.090166 5b10                  Options.enable_pipelined_write: 0
+2023/07/09-13:29:41.090177 5b10                  Options.unordered_write: 0
+2023/07/09-13:29:41.090189 5b10         Options.allow_concurrent_memtable_write: 1
+2023/07/09-13:29:41.090200 5b10      Options.enable_write_thread_adaptive_yield: 1
+2023/07/09-13:29:41.090212 5b10             Options.write_thread_max_yield_usec: 100
+2023/07/09-13:29:41.090224 5b10            Options.write_thread_slow_yield_usec: 3
+2023/07/09-13:29:41.090235 5b10                               Options.row_cache: None
+2023/07/09-13:29:41.090246 5b10                              Options.wal_filter: None
+2023/07/09-13:29:41.090257 5b10             Options.avoid_flush_during_recovery: 0
+2023/07/09-13:29:41.090268 5b10             Options.allow_ingest_behind: 0
+2023/07/09-13:29:41.090279 5b10             Options.two_write_queues: 0
+2023/07/09-13:29:41.090290 5b10             Options.manual_wal_flush: 0
+2023/07/09-13:29:41.090301 5b10             Options.wal_compression: 0
+2023/07/09-13:29:41.090310 5b10             Options.atomic_flush: 0
+2023/07/09-13:29:41.090320 5b10             Options.avoid_unnecessary_blocking_io: 0
+2023/07/09-13:29:41.090331 5b10                 Options.persist_stats_to_disk: 0
+2023/07/09-13:29:41.090342 5b10                 Options.write_dbid_to_manifest: 0
+2023/07/09-13:29:41.090351 5b10                 Options.log_readahead_size: 0
+2023/07/09-13:29:41.090361 5b10                 Options.file_checksum_gen_factory: Unknown
+2023/07/09-13:29:41.090371 5b10                 Options.best_efforts_recovery: 0
+2023/07/09-13:29:41.090379 5b10                Options.max_bgerror_resume_count: 2147483647
+2023/07/09-13:29:41.090387 5b10            Options.bgerror_resume_retry_interval: 1000000
+2023/07/09-13:29:41.090398 5b10             Options.allow_data_in_errors: 0
+2023/07/09-13:29:41.090409 5b10             Options.db_host_id: __hostname__
+2023/07/09-13:29:41.090424 5b10             Options.enforce_single_del_contracts: true
+2023/07/09-13:29:41.090437 5b10             Options.max_background_jobs: 2
+2023/07/09-13:29:41.090448 5b10             Options.max_background_compactions: -1
+2023/07/09-13:29:41.090456 5b10             Options.max_subcompactions: 1
+2023/07/09-13:29:41.090467 5b10             Options.avoid_flush_during_shutdown: 0
+2023/07/09-13:29:41.090476 5b10           Options.writable_file_max_buffer_size: 1048576
+2023/07/09-13:29:41.090487 5b10             Options.delayed_write_rate : 16777216
+2023/07/09-13:29:41.090498 5b10             Options.max_total_wal_size: 0
+2023/07/09-13:29:41.090509 5b10             Options.delete_obsolete_files_period_micros: 21600000000
+2023/07/09-13:29:41.090523 5b10                   Options.stats_dump_period_sec: 0
+2023/07/09-13:29:41.090533 5b10                 Options.stats_persist_period_sec: 0
+2023/07/09-13:29:41.090544 5b10                 Options.stats_history_buffer_size: 65536
+2023/07/09-13:29:41.090554 5b10                          Options.max_open_files: -1
+2023/07/09-13:29:41.090564 5b10                          Options.bytes_per_sync: 0
+2023/07/09-13:29:41.090573 5b10                      Options.wal_bytes_per_sync: 0
+2023/07/09-13:29:41.090582 5b10                   Options.strict_bytes_per_sync: 0
+2023/07/09-13:29:41.090591 5b10       Options.compaction_readahead_size: 0
+2023/07/09-13:29:41.090599 5b10                  Options.max_background_flushes: -1
+2023/07/09-13:29:41.090608 5b10 Compression algorithms supported:
+2023/07/09-13:29:41.090616 5b10 	kZSTD supported: 1
+2023/07/09-13:29:41.090624 5b10 	kSnappyCompression supported: 1
+2023/07/09-13:29:41.090655 5b10 	kBZip2Compression supported: 0
+2023/07/09-13:29:41.090665 5b10 	kZlibCompression supported: 1
+2023/07/09-13:29:41.090674 5b10 	kLZ4Compression supported: 1
+2023/07/09-13:29:41.090684 5b10 	kXpressCompression supported: 0
+2023/07/09-13:29:41.090695 5b10 	kLZ4HCCompression supported: 1
+2023/07/09-13:29:41.090702 5b10 	kZSTDNotFinalCompression supported: 1
+2023/07/09-13:29:41.090709 5b10 Fast CRC32 supported: Not supported on x86
+2023/07/09-13:29:41.090718 5b10 DMutex implementation: std::mutex
+2023/07/09-13:29:41.139867 5b10 [WARN] [db\db_impl\db_impl_open.cc:2055] DB::Open() failed: Corruption: CURRENT file corrupted
+2023/07/09-13:29:41.139888 5b10 [db\db_impl\db_impl.cc:480] Shutdown: canceling all background work
+2023/07/09-13:29:41.139957 5b10 [db\db_impl\db_impl.cc:710] Shutdown complete

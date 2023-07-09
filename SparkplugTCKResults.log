@@ -1,0 +1,21 @@
+2023-06-21 23:56:21.648 Summary Test Results for Broker Sparkplug Compliant
+conformance-mqtt-qos0: PASS;
+conformance-mqtt-qos1: PASS;
+conformance-mqtt-retained: PASS;
+conformance-mqtt-will-messages: PASS;
+OVERALL: PASS;
+
+2023-06-21 23:58:33.149 Summary Test Results for Broker Sparkplug Aware
+conformance-mqtt-aware-basic: PASS;
+conformance-mqtt-aware-dbirth-mqtt-retain: NOT EXECUTED;
+conformance-mqtt-aware-dbirth-mqtt-topic: NOT EXECUTED;
+conformance-mqtt-aware-nbirth-mqtt-retain: NOT EXECUTED;
+conformance-mqtt-aware-nbirth-mqtt-topic: NOT EXECUTED;
+conformance-mqtt-aware-ndeath-timestamp: PASS;
+conformance-mqtt-aware-store: NOT EXECUTED;
+conformance-mqtt-qos0: PASS;
+conformance-mqtt-qos1: PASS;
+conformance-mqtt-retained: PASS;
+conformance-mqtt-will-messages: PASS;
+OVERALL: PASS but INCOMPLETE;
+
